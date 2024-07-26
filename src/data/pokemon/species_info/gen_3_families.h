@@ -117,7 +117,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_SCEPTILE] =
     {
         .baseHP        = 70,
-        .baseAttack    = (P_UPDATED_STATS == GEN_CUSTOM) ? 105 : 85,
+        .baseAttack    = (P_UPDATED_STATS == GEN_CUSTOM) ? 115 : 85,
         .baseDefense   = 65,
         .baseSpeed     = 120,
         .baseSpAttack  = (P_UPDATED_STATS == GEN_CUSTOM) ? 85 : 105,
