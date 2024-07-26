@@ -7,10 +7,10 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_TREECKO] =
     {
         .baseHP        = 40,
-        .baseAttack    = 45,
+        .baseAttack    = (P_UPDATED_STATS == GEN_CUSTOM) ? 65 : 45,
         .baseDefense   = 35,
         .baseSpeed     = 70,
-        .baseSpAttack  = 65,
+        .baseSpAttack  = (P_UPDATED_STATS == GEN_CUSTOM) ? 45 : 65,
         .baseSpDefense = 55,
         .types = MON_TYPES(TYPE_GRASS),
         .catchRate = 45,
@@ -60,12 +60,16 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_GROVYLE] =
     {
         .baseHP        = 50,
-        .baseAttack    = 65,
+        .baseAttack    = (P_UPDATED_STATS == GEN_CUSTOM) ? 85 : 65,
         .baseDefense   = 45,
         .baseSpeed     = 95,
-        .baseSpAttack  = 85,
+        .baseSpAttack  = (P_UPDATED_STATS == GEN_CUSTOM) ? 65 : 85,
         .baseSpDefense = 65,
+    #if P_UPDATED_TYPES == GEN_CUSTOM
+        .types = MON_TYPES(TYPE_GRASS, TYPE_DRAGON),
+    #else
         .types = MON_TYPES(TYPE_GRASS),
+    #endif
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 142 : 141,
         .evYield_Speed = 2,
@@ -113,12 +117,16 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_SCEPTILE] =
     {
         .baseHP        = 70,
-        .baseAttack    = 85,
+        .baseAttack    = (P_UPDATED_STATS == GEN_CUSTOM) ? 105 : 85,
         .baseDefense   = 65,
         .baseSpeed     = 120,
-        .baseSpAttack  = 105,
+        .baseSpAttack  = (P_UPDATED_STATS == GEN_CUSTOM) ? 85 : 105,
         .baseSpDefense = 85,
+    #if P_UPDATED_TYPES == GEN_CUSTOM
+        .types = MON_TYPES(TYPE_GRASS, TYPE_DRAGON),
+    #else
         .types = MON_TYPES(TYPE_GRASS),
+    #endif
         .catchRate = 45,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
         .expYield = 265,
@@ -174,10 +182,10 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_SCEPTILE_MEGA] =
     {
         .baseHP        = 70,
-        .baseAttack    = 110,
+        .baseAttack    = (P_UPDATED_STATS == GEN_CUSTOM) ? 145 : 110,
         .baseDefense   = 75,
         .baseSpeed     = 145,
-        .baseSpAttack  = 145,
+        .baseSpAttack  = (P_UPDATED_STATS == GEN_CUSTOM) ? 110 : 145,
         .baseSpDefense = 85,
         .types = MON_TYPES(TYPE_GRASS, TYPE_DRAGON),
         .catchRate = 45,
@@ -188,7 +196,11 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_DRAGON),
+    #if P_UPDATED_ABILITIES == GEN_CUSTOM
+        .abilities = { ABILITY_SHARPNESS, ABILITY_SHARPNESS, ABILITY_SHARPNESS },
+    #else
         .abilities = { ABILITY_LIGHTNING_ROD, ABILITY_LIGHTNING_ROD, ABILITY_LIGHTNING_ROD },
+    #endif
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Sceptile"),
         .cryId = CRY_SCEPTILE_MEGA,

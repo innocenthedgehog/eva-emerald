@@ -2,9 +2,9 @@
 #define GUARD_CONFIG_POKEMON_H
 
 // Species data settings
-#define P_UPDATED_TYPES             GEN_LATEST  // Since Gen 6, several Pokémon were changed to be partially or fully Fairy type.
-#define P_UPDATED_STATS             GEN_LATEST  // Since Gen 6, Pokémon stats are updated with each passing generation.
-#define P_UPDATED_ABILITIES         GEN_LATEST  // Since Gen 6, certain Pokémon have their abilities changed.
+#define P_UPDATED_TYPES             GEN_CUSTOM  // Since Gen 6, several Pokémon were changed to be partially or fully Fairy type.
+#define P_UPDATED_STATS             GEN_CUSTOM  // Since Gen 6, Pokémon stats are updated with each passing generation.
+#define P_UPDATED_ABILITIES         GEN_CUSTOM  // Since Gen 6, certain Pokémon have their abilities changed.
 #define P_UPDATED_EGG_GROUPS        GEN_LATEST  // Since Gen 8, certain Pokémon have gained new egg groups.
 #define P_UPDATED_FRIENDSHIP        GEN_LATEST  // Since Gen 8, the base friendship of certain Pokémon was changed.
 #define P_UPDATED_EVS               GEN_LATEST  // Some Pokémon have received EV updates after their introduction.
