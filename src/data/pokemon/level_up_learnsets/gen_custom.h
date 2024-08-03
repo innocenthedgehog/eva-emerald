@@ -7273,6 +7273,7 @@ static const struct LevelUpMove sBeautiflyLevelUpLearnset[] = {
     LEVEL_UP_MOVE(37, MOVE_SILK_TRAP),
     LEVEL_UP_MOVE(40, MOVE_QUIVER_DANCE),
     LEVEL_UP_MOVE(44, MOVE_AIR_SLASH),
+    LEVEL_UP_MOVE(50, MOVE_HURRICANE),
     LEVEL_UP_END
 };
 
@@ -7307,6 +7308,7 @@ static const struct LevelUpMove sDustoxLevelUpLearnset[] = {
     LEVEL_UP_MOVE(37, MOVE_SILK_TRAP),
     LEVEL_UP_MOVE(40, MOVE_QUIVER_DANCE),
     LEVEL_UP_MOVE(44, MOVE_SLUDGE_BOMB),
+    LEVEL_UP_MOVE(50, MOVE_GUNK_SHOT),
     LEVEL_UP_END
 };
 #endif //P_FAMILY_WURMPLE
@@ -7351,7 +7353,6 @@ static const struct LevelUpMove sLombreLevelUpLearnset[] = {
     LEVEL_UP_MOVE(38, MOVE_ZEN_HEADBUTT),
     LEVEL_UP_MOVE(42, MOVE_ENERGY_BALL),
     LEVEL_UP_MOVE(46, MOVE_HYDRO_PUMP),
-    LEVEL_UP_MOVE(50, MOVE_PETAL_DANCE),
     LEVEL_UP_END
 };
 
