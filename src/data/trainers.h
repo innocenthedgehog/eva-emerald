@@ -27391,7 +27391,8 @@ F_TRAINER_FEMALE |
             {
 #line 10844
             .species = SPECIES_COMBUSKEN,
-            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 10844
+            .gender = TRAINER_MON_MALE,
 #line 10844
             .heldItem = ITEM_ORAN_BERRY,
 #line 10847
@@ -27478,7 +27479,8 @@ F_TRAINER_FEMALE |
             {
 #line 10880
             .species = SPECIES_GROVYLE,
-            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 10880
+            .gender = TRAINER_MON_MALE,
 #line 10880
             .heldItem = ITEM_ORAN_BERRY,
 #line 10883
@@ -27797,7 +27799,8 @@ F_TRAINER_FEMALE |
             {
 #line 11006
             .species = SPECIES_MARSHTOMP,
-            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 11006
+            .gender = TRAINER_MON_MALE,
 #line 11006
             .heldItem = ITEM_ORAN_BERRY,
 #line 11009
@@ -27886,7 +27889,8 @@ F_TRAINER_FEMALE |
             {
 #line 11042
             .species = SPECIES_GROVYLE,
-            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 11042
+            .gender = TRAINER_MON_FEMALE,
 #line 11042
             .heldItem = ITEM_ORAN_BERRY,
 #line 11045
@@ -35877,7 +35881,8 @@ F_TRAINER_FEMALE |
             {
 #line 14196
             .species = SPECIES_COMBUSKEN,
-            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 14196
+            .gender = TRAINER_MON_FEMALE,
 #line 14196
             .heldItem = ITEM_ORAN_BERRY,
 #line 14199
@@ -35966,7 +35971,8 @@ F_TRAINER_FEMALE |
             {
 #line 14232
             .species = SPECIES_MARSHTOMP,
-            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 14232
+            .gender = TRAINER_MON_FEMALE,
 #line 14232
             .heldItem = ITEM_ORAN_BERRY,
 #line 14235
