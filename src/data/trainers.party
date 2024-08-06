@@ -2532,11 +2532,14 @@ Gender: Male
 Music: Rich
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Zigzagoon @ Nugget
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Clamperl (M) @ Big Pearl
+Level: 10
+- Water Gun
+- Whirlpool
+- Iron Defense
+- Aqua Ring
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -4801,9 +4804,8 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Potion / Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / HP Aware / Prefer Status Moves / Conservative / Smart Switching
 
 Geodude
 Level: 12
@@ -5987,12 +5989,22 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Roggenrola
+Level: 12
+Ability: Weak Armor
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Stealth Rock
+- Harden
+- Mud Slap
 
 Geodude
-Level: 10
+Level: 12
+Ability: Sturdy
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+- Defense Curl
+- Rollout
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -6001,15 +6013,25 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 8
+Level: 12
+Ability: Sturdy
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Bulldoze
+- Thunder Punch
+- Curse
+- Wide Guard
 
-Geodude
-Level: 8
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Rhyhorn
+Level: 12
+IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+Ability: Lightning Rod
+- Smack Down
+- Bulldoze
+- Tail Whip
+
 
 === TRAINER_JOEY ===
 Name: JOEY
@@ -6338,16 +6360,13 @@ Double Battle: No
 AI: Check Bad Move
 
 Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 11
 
-Magikarp
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Remoraid
+Level: 11
 
-Magikarp
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Barboach
+Level: 11
 
 === TRAINER_CLAUDE ===
 Name: CLAUDE
@@ -8814,13 +8833,11 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Seedot
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Foongus
+Level: 12
 
-Lotad
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Shroomish
+Level: 12
 
 === TRAINER_MIU_AND_YUKI ===
 Name: MIU & YUKI
@@ -10566,15 +10583,24 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Geodude
-Level: 8
+Silicobra
+Level: 12
+Ability: Shed Skin
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Brutal Swing
+- Sand Tomb
+- Wrap
 
-Geodude
-Level: 8
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Rockruff
+Level: 12
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Ability: Vital Spirit
+- Rock Throw
+- Leer
+- Fire Fang
+- Thunder Fang
 
 === TRAINER_BRENDEN ===
 Name: BRENDEN
@@ -11080,12 +11106,13 @@ Double Battle: No
 AI: Check Bad Move
 
 Lotad
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 10
 
-Shroomish
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Taillow
+Level: 10
+
+Ralts
+Level: 10
 
 === TRAINER_JANICE ===
 Name: JANICE
