@@ -4805,31 +4805,34 @@ Pic: Leader Roxanne
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / HP Aware / Prefer Status Moves / Conservative / Smart Switching
+AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / HP Aware / Prefer Status Moves / Smart Switching / Conservative
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
+Anorith @ Smooth Rock
+Level: 14
+Ability: Battle Armor
+IVs: 15 HP / 12 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rock Tomb
+- Sandstorm
+- Fury Cutter
+- Aqua Jet
+
+Lileep @ Grass Gem
+Level: 14
+Ability: Storm Drain
+IVs: 15 HP / 12 Atk / 15 Def / 12 SpA / 15 SpD / 15 Spe
+- Mega Drain
+- Acid
+- Stealth Rock
 - Rock Tomb
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
-
-Nosepass @ Oran Berry
-Level: 15
+Nosepass @ Berry Juice
+Level: 16
+Ability: Sand Force
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
+- Thunder Wave
 - Rock Tomb
+- Shock Wave
+- Fire Punch
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -10883,15 +10886,34 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / Smart Switching
 
-Lotad
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Torchic
+Lotad @ Pecha Berry
 Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Ability: Swift Swim
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Fake Out
+- Bubble
+- Bullet Seed
+- Natural Gift
+
+Wingull @ Oran Berry
+Level: 15
+Ability: Keen Eye
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Wing Attack
+- Water Gun
+- Supersonic
+- Quick Attack
+
+Combusken (M) @ Oran Berry
+Level: 16
+Ability: Speed Boost
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Flame Charge
+- Peck
+- Sand Attack
+- Double Kick
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
 Name: BRENDAN
@@ -10900,15 +10922,34 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / Smart Switching
 
-Wingull
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Treecko
+Wingull @ Oran Berry
 Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Ability: Keen Eye
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Wing Attack
+- Water Gun
+- Supersonic
+- Quick Attack
+
+Numel @ Oran Berry
+Level: 15
+Ability: Simple
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Tackle
+- Yawn
+- Bulldoze
+- Incinerate
+
+Grovyle (M) @ Oran Berry
+Level: 16
+Ability: Unburden
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Leafage
+- Quick Attack
+- Leer
+- Dragon Tail
 
 === TRAINER_PAXTON ===
 Name: PAXTON
@@ -11007,15 +11048,34 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / Smart Switching
 
-Slugma
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Mudkip
+Lotad @ Pecha Berry
 Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Ability: Swift Swim
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Fake Out
+- Bubble
+- Bullet Seed
+- Natural Gift
+
+Numel @ Oran Berry
+Level: 15
+Ability: Simple
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Tackle
+- Yawn
+- Bulldoze
+- Incinerate
+
+Marshtomp (M) @ Oran Berry
+Level: 16
+Ability: Damp
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Water Gun
+- Mud Shot
+- Bide
+- Supersonic
 
 === TRAINER_MAY_RUSTBORO_MUDKIP ===
 Name: MAY
@@ -11024,15 +11084,34 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / Smart Switching
 
-Wingull
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Treecko
+Wingull @ Oran Berry
 Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Ability: Keen Eye
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Wing Attack
+- Water Gun
+- Supersonic
+- Quick Attack
+
+Numel @ Oran Berry
+Level: 15
+Ability: Simple
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Tackle
+- Yawn
+- Bulldoze
+- Incinerate
+
+Grovyle (F) @ Oran Berry
+Level: 16
+Ability: Unburden
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Leafage
+- Quick Attack
+- Leer
+- Dragon Tail
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
 Name: MAXIE
@@ -14159,15 +14238,34 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / Smart Switching
 
-Lotad
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Torchic
+Lotad @ Pecha Berry
 Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Ability: Swift Swim
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Fake Out
+- Bubble
+- Bullet Seed
+- Natural Gift
+
+Wingull @ Oran Berry
+Level: 15
+Ability: Keen Eye
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Wing Attack
+- Water Gun
+- Supersonic
+- Quick Attack
+
+Combusken (F) @ Oran Berry
+Level: 16
+Ability: Speed Boost
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Flame Charge
+- Peck
+- Sand Attack
+- Double Kick
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
 Name: MAY
@@ -14176,15 +14274,34 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / Smart Switching
 
-Torkoal
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Mudkip
+Lotad @ Pecha Berry
 Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Ability: Swift Swim
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Fake Out
+- Bubble
+- Bullet Seed
+- Natural Gift
+
+Numel @ Oran Berry
+Level: 15
+Ability: Simple
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Tackle
+- Yawn
+- Bulldoze
+- Incinerate
+
+Marshtomp (F) @ Oran Berry
+Level: 16
+Ability: Damp
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Water Gun
+- Mud Shot
+- Bide
+- Supersonic
 
 === TRAINER_ROXANNE_2 ===
 Name: ROXANNE
