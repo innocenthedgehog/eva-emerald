@@ -5145,9 +5145,9 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ralts
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Abra @ Focus Sash
+Level: 15
+- Metronome
 
 === TRAINER_TED ===
 Name: TED
@@ -5264,9 +5264,11 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Azurill
+Level: 12
+
+Chingling
+Level: 13
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -6043,11 +6045,13 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Machop
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rockruff
+Level: 14
+- Tackle
+- Sand Attack
+- Rock Throw
 
 === TRAINER_BEN ===
 Name: BEN
@@ -11202,9 +11206,11 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skitty
+Level: 15
+- Disarming Voice
+- Attract
+- Substitute
 
 === TRAINER_VIVI ===
 Name: VIVI
@@ -11409,12 +11415,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Wurmple
-Level: 8
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Nincada
-Level: 8
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Surskit
+Level: 12
 
 === TRAINER_DOUG ===
 Name: DOUG
@@ -11660,8 +11665,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 13
+
+Machop
+Level: 13
 
 === TRAINER_ERIC ===
 Name: ERIC
@@ -13049,15 +13056,13 @@ Pic: Rich Boy
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Zigzagoon @ Nugget
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mankey
+Level: 13
 
-Poochyena
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ralts @ Nugget
+Level: 14
 
 === TRAINER_SARAH ===
 Name: SARAH
@@ -13067,15 +13072,18 @@ Gender: Female
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Lotad
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Spheal
+Level: 14
+- Ice Ball
+- Defense Curl
 
-Zigzagoon @ Nugget
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pikipek @ Nugget
+Level: 15
+- Echoed Voice
+- Rock Smash
+- Pluck
 
 === TRAINER_DARIAN ===
 Name: DARIAN
@@ -13971,13 +13979,11 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rockruff
+Level: 13
 
-Geodude
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Numel
+Level: 14
 
 === TRAINER_JOHNSON ===
 Name: JOHNSON
@@ -13989,12 +13995,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Shroomish
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 13
 
-Lotad
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Spoink
+Level: 14
 
 === TRAINER_MELINA ===
 Name: MELINA
