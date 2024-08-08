@@ -1173,7 +1173,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     u16 checksum;
     u8 i;
     u8 availableIVs[NUM_STATS];
-    u8 selectedIvs[LEGENDARY_PERFECT_IV_COUNT];
+    u8 selectedIvs[NUM_STATS];
     bool32 isShiny;
 
     ZeroBoxMonData(boxMon);
@@ -1290,21 +1290,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
         iv = (value & (MAX_IV_MASK << 10)) >> 10;
         SetBoxMonData(boxMon, MON_DATA_SPDEF_IV, &iv);
 
-        if (gSpeciesInfo[species].allPerfectIVs)
-        {
-            iv = MAX_PER_STAT_IVS;
-            SetBoxMonData(boxMon, MON_DATA_HP_IV, &iv);
-            SetBoxMonData(boxMon, MON_DATA_ATK_IV, &iv);
-            SetBoxMonData(boxMon, MON_DATA_DEF_IV, &iv);
-            SetBoxMonData(boxMon, MON_DATA_SPEED_IV, &iv);
-            SetBoxMonData(boxMon, MON_DATA_SPATK_IV, &iv);
-            SetBoxMonData(boxMon, MON_DATA_SPDEF_IV, &iv);
-        }
-        else if (P_LEGENDARY_PERFECT_IVS >= GEN_6
-         && (gSpeciesInfo[species].isLegendary
-          || gSpeciesInfo[species].isMythical
-          || gSpeciesInfo[species].isUltraBeast
-          || gSpeciesInfo[species].isTotem))
+        if (gSpeciesInfo[species].perfectIVCount != 0)
         {
             iv = MAX_PER_STAT_IVS;
             // Initialize a list of IV indices.
@@ -1313,14 +1299,14 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
                 availableIVs[i] = i;
             }
 
-            // Select the 3 IVs that will be perfected.
-            for (i = 0; i < LEGENDARY_PERFECT_IV_COUNT; i++)
+            // Select the IVs that will be perfected.
+            for (i = 0; i < NUM_STATS && i < gSpeciesInfo[species].perfectIVCount; i++)
             {
                 u8 index = Random() % (NUM_STATS - i);
                 selectedIvs[i] = availableIVs[index];
                 RemoveIVIndexFromList(availableIVs, index);
             }
-            for (i = 0; i < LEGENDARY_PERFECT_IV_COUNT; i++)
+            for (i = 0; i < NUM_STATS && i < gSpeciesInfo[species].perfectIVCount; i++)
             {
                 switch (selectedIvs[i])
                 {
@@ -3747,9 +3733,9 @@ void PokemonToBattleMon(struct Pokemon *src, struct BattlePokemon *dst)
     dst->spDefense = GetMonData(src, MON_DATA_SPDEF, NULL);
     dst->abilityNum = GetMonData(src, MON_DATA_ABILITY_NUM, NULL);
     dst->otId = GetMonData(src, MON_DATA_OT_ID, NULL);
-    dst->type1 = gSpeciesInfo[dst->species].types[0];
-    dst->type2 = gSpeciesInfo[dst->species].types[1];
-    dst->type3 = TYPE_MYSTERY;
+    dst->types[0] = gSpeciesInfo[dst->species].types[0];
+    dst->types[1] = gSpeciesInfo[dst->species].types[1];
+    dst->types[2] = TYPE_MYSTERY;
     dst->isShiny = IsMonShiny(src);
     dst->ability = GetAbilityBySpecies(dst->species, dst->abilityNum);
     GetMonData(src, MON_DATA_NICKNAME, nickname);
@@ -7073,12 +7059,12 @@ u8 CheckDynamicMoveType(struct Pokemon *mon, u32 move, u32 battler)
             type = type2;
         else if (GetBattlerTeraType(battler) != TYPE_STELLAR && (GetActiveGimmick(battler) == GIMMICK_TERA || IsGimmickSelected(battler, GIMMICK_TERA)))
             type = GetMonData(mon, MON_DATA_TERA_TYPE);       
-        else if (gBattleMons[battler].type1 != TYPE_MYSTERY)
-            type = gBattleMons[battler].type1;
-        else if (gBattleMons[battler].type2 != TYPE_MYSTERY)
-            type = gBattleMons[battler].type2;
-        else if (gBattleMons[battler].type3 != TYPE_MYSTERY)
-            type = gBattleMons[battler].type3;
+        else if (gBattleMons[battler].types[0] != TYPE_MYSTERY)
+            type = gBattleMons[battler].types[0];
+        else if (gBattleMons[battler].types[1] != TYPE_MYSTERY)
+            type = gBattleMons[battler].types[1];
+        else if (gBattleMons[battler].types[2] != TYPE_MYSTERY)
+            type = gBattleMons[battler].types[2];
     }
     else if (gMovesInfo[move].effect == EFFECT_TERRAIN_PULSE 
           && ((IsMonGrounded(heldItemEffect, ability, type1, type2) && gBattleMons[battler].species != species) 
