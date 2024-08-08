@@ -49,7 +49,6 @@
 #define P_CAN_FORGET_HIDDEN_MOVE         TRUE       // If TRUE, Pokémon can forget any move, even if it is a Hidden Move.
 #define P_EGG_CYCLE_LENGTH               GEN_LATEST  // Since Gen 8, egg cycles take half as many steps as before.
 #define P_TWO_FRAME_FRONT_SPRITES        TRUE        // In Pokémon Emerald, Pokémon front sprites always consist of two frames. This config can revert it to only use the first frame, as is the case in the other Gen 3 games.
-<<<<<<< HEAD
 #define P_ONLY_OBTAINABLE_SHINIES        TRUE       // If TRUE, Pokémon encountered in the Battle Pyramid won't be shiny.
 #define P_NO_SHINIES_WITHOUT_POKEBALLS   TRUE       // If TRUE, Pokémon encountered when the player is out of Poké Balls won't be shiny
 #define P_SHOW_DYNAMIC_TYPES             TRUE       // If TRUE, moves with dynamic type changes will be reflected as their current type in battle/summary screens.
