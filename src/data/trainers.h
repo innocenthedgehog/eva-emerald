@@ -27374,7 +27374,7 @@ F_TRAINER_FEMALE |
 #line 10895
             .heldItem = ITEM_PECHA_BERRY,
 #line 10898
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 10897
             .ability = ABILITY_SWIFT_SWIM,
 #line 10896
@@ -27396,7 +27396,7 @@ F_TRAINER_FEMALE |
 #line 10904
             .heldItem = ITEM_ORAN_BERRY,
 #line 10907
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 10906
             .ability = ABILITY_KEEN_EYE,
 #line 10905
@@ -27419,7 +27419,7 @@ F_TRAINER_FEMALE |
 #line 10913
             .heldItem = ITEM_ORAN_BERRY,
 #line 10916
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 10915
             .ability = ABILITY_SPEED_BOOST,
 #line 10914
@@ -27462,7 +27462,7 @@ F_TRAINER_FEMALE |
 #line 10931
             .heldItem = ITEM_ORAN_BERRY,
 #line 10934
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 10933
             .ability = ABILITY_KEEN_EYE,
 #line 10932
@@ -27484,7 +27484,7 @@ F_TRAINER_FEMALE |
 #line 10940
             .heldItem = ITEM_ORAN_BERRY,
 #line 10943
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 10942
             .ability = ABILITY_SIMPLE,
 #line 10941
@@ -27507,7 +27507,7 @@ F_TRAINER_FEMALE |
 #line 10949
             .heldItem = ITEM_ORAN_BERRY,
 #line 10952
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 10951
             .ability = ABILITY_UNBURDEN,
 #line 10950
@@ -27782,7 +27782,7 @@ F_TRAINER_FEMALE |
 #line 11057
             .heldItem = ITEM_PECHA_BERRY,
 #line 11060
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 11059
             .ability = ABILITY_SWIFT_SWIM,
 #line 11058
@@ -27804,7 +27804,7 @@ F_TRAINER_FEMALE |
 #line 11066
             .heldItem = ITEM_ORAN_BERRY,
 #line 11069
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 11068
             .ability = ABILITY_SIMPLE,
 #line 11067
@@ -27827,7 +27827,7 @@ F_TRAINER_FEMALE |
 #line 11075
             .heldItem = ITEM_ORAN_BERRY,
 #line 11078
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 11077
             .ability = ABILITY_DAMP,
 #line 11076
@@ -27872,7 +27872,7 @@ F_TRAINER_FEMALE |
 #line 11093
             .heldItem = ITEM_ORAN_BERRY,
 #line 11096
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 11095
             .ability = ABILITY_KEEN_EYE,
 #line 11094
@@ -27894,7 +27894,7 @@ F_TRAINER_FEMALE |
 #line 11102
             .heldItem = ITEM_ORAN_BERRY,
 #line 11105
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 11104
             .ability = ABILITY_SIMPLE,
 #line 11103
@@ -27917,7 +27917,7 @@ F_TRAINER_FEMALE |
 #line 11111
             .heldItem = ITEM_ORAN_BERRY,
 #line 11114
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 11113
             .ability = ABILITY_UNBURDEN,
 #line 11112
@@ -35892,7 +35892,7 @@ F_TRAINER_FEMALE |
 #line 14247
             .heldItem = ITEM_PECHA_BERRY,
 #line 14250
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 14249
             .ability = ABILITY_SWIFT_SWIM,
 #line 14248
@@ -35914,7 +35914,7 @@ F_TRAINER_FEMALE |
 #line 14256
             .heldItem = ITEM_ORAN_BERRY,
 #line 14259
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 14258
             .ability = ABILITY_KEEN_EYE,
 #line 14257
@@ -35937,7 +35937,7 @@ F_TRAINER_FEMALE |
 #line 14265
             .heldItem = ITEM_ORAN_BERRY,
 #line 14268
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 14267
             .ability = ABILITY_SPEED_BOOST,
 #line 14266
@@ -35982,7 +35982,7 @@ F_TRAINER_FEMALE |
 #line 14283
             .heldItem = ITEM_PECHA_BERRY,
 #line 14286
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 14285
             .ability = ABILITY_SWIFT_SWIM,
 #line 14284
@@ -36004,7 +36004,7 @@ F_TRAINER_FEMALE |
 #line 14292
             .heldItem = ITEM_ORAN_BERRY,
 #line 14295
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 14294
             .ability = ABILITY_SIMPLE,
 #line 14293
@@ -36027,7 +36027,7 @@ F_TRAINER_FEMALE |
 #line 14301
             .heldItem = ITEM_ORAN_BERRY,
 #line 14304
-            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
+            .iv = TRAINER_PARTY_IVS(10, 10, 10, 10, 10, 10),
 #line 14303
             .ability = ABILITY_DAMP,
 #line 14302

@@ -10895,7 +10895,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / Sm
 Lotad @ Pecha Berry
 Level: 15
 Ability: Swift Swim
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Fake Out
 - Bubble
 - Bullet Seed
@@ -10904,7 +10904,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Wingull @ Oran Berry
 Level: 15
 Ability: Keen Eye
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Wing Attack
 - Water Gun
 - Supersonic
@@ -10913,7 +10913,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Combusken (M) @ Oran Berry
 Level: 16
 Ability: Speed Boost
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Flame Charge
 - Peck
 - Sand Attack
@@ -10931,7 +10931,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / Sm
 Wingull @ Oran Berry
 Level: 15
 Ability: Keen Eye
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Wing Attack
 - Water Gun
 - Supersonic
@@ -10940,7 +10940,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Numel @ Oran Berry
 Level: 15
 Ability: Simple
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Tackle
 - Yawn
 - Bulldoze
@@ -10949,7 +10949,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Grovyle (M) @ Oran Berry
 Level: 16
 Ability: Unburden
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Leafage
 - Quick Attack
 - Leer
@@ -11057,7 +11057,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / Sm
 Lotad @ Pecha Berry
 Level: 15
 Ability: Swift Swim
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Fake Out
 - Bubble
 - Bullet Seed
@@ -11066,7 +11066,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Numel @ Oran Berry
 Level: 15
 Ability: Simple
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Tackle
 - Yawn
 - Bulldoze
@@ -11075,7 +11075,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Marshtomp (M) @ Oran Berry
 Level: 16
 Ability: Damp
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Water Gun
 - Mud Shot
 - Bide
@@ -11093,7 +11093,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / Sm
 Wingull @ Oran Berry
 Level: 15
 Ability: Keen Eye
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Wing Attack
 - Water Gun
 - Supersonic
@@ -11102,7 +11102,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Numel @ Oran Berry
 Level: 15
 Ability: Simple
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Tackle
 - Yawn
 - Bulldoze
@@ -11111,7 +11111,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Grovyle (F) @ Oran Berry
 Level: 16
 Ability: Unburden
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Leafage
 - Quick Attack
 - Leer
@@ -14247,7 +14247,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / Sm
 Lotad @ Pecha Berry
 Level: 15
 Ability: Swift Swim
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Fake Out
 - Bubble
 - Bullet Seed
@@ -14256,7 +14256,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Wingull @ Oran Berry
 Level: 15
 Ability: Keen Eye
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Wing Attack
 - Water Gun
 - Supersonic
@@ -14265,7 +14265,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Combusken (F) @ Oran Berry
 Level: 16
 Ability: Speed Boost
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Flame Charge
 - Peck
 - Sand Attack
@@ -14283,7 +14283,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Prefer Strongest Move / Sm
 Lotad @ Pecha Berry
 Level: 15
 Ability: Swift Swim
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Fake Out
 - Bubble
 - Bullet Seed
@@ -14292,7 +14292,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Numel @ Oran Berry
 Level: 15
 Ability: Simple
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Tackle
 - Yawn
 - Bulldoze
@@ -14301,7 +14301,7 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 Marshtomp (F) @ Oran Berry
 Level: 16
 Ability: Damp
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Water Gun
 - Mud Shot
 - Bide
