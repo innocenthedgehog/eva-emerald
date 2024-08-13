@@ -1388,10 +1388,14 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseHP        = 60,
         .baseAttack    = 70,
         .baseDefense   = 50,
-        .baseSpeed     = 65,
+        .baseSpeed     = P_UPDATED_STATS == GEN_CUSTOM ? 80 : 65,
         .baseSpAttack  = P_UPDATED_STATS >= GEN_6 ? 100 : 90,
         .baseSpDefense = 50,
+    #if P_UPDATED_TYPES == GEN_CUSTOM
+        .types = MON_TYPES(TYPE_BUG, TYPE_FAIRY),
+    #else
         .types = MON_TYPES(TYPE_BUG, TYPE_FLYING),
+    #endif
         .catchRate = 45,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
         .expYield = 198,
@@ -1527,12 +1531,12 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
 
     [SPECIES_DUSTOX] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 50,
-        .baseDefense   = 70,
+        .baseHP        = P_UPDATED_STATS == GEN_CUSTOM ? 75 : 60,
+        .baseAttack    = P_UPDATED_STATS == GEN_CUSTOM ? 60 : 50,
+        .baseDefense   = P_UPDATED_STATS == GEN_CUSTOM ? 75 : 70,
         .baseSpeed     = 65,
-        .baseSpAttack  = 50,
-        .baseSpDefense = 90,
+        .baseSpAttack  = P_UPDATED_STATS == GEN_CUSTOM ? 60 : 50,
+        .baseSpDefense = P_UPDATED_STATS == GEN_CUSTOM ? 100 : 90,
         .types = MON_TYPES(TYPE_BUG, TYPE_POISON),
         .catchRate = 45,
     #if P_UPDATED_EXP_YIELDS >= GEN_8
