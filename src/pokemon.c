@@ -2144,14 +2144,14 @@ u8 CountAliveMonsInBattle(u8 caseId, u32 battler)
     case BATTLE_ALIVE_EXCEPT_BATTLER:
         for (i = 0; i < MAX_BATTLERS_COUNT; i++)
         {
-            if (i != battler && !(gAbsentBattlerFlags & gBitTable[i]))
+            if (i != battler && !(gAbsentBattlerFlags & (1u << i)))
                 retVal++;
         }
         break;
     case BATTLE_ALIVE_SIDE:
         for (i = 0; i < MAX_BATTLERS_COUNT; i++)
         {
-            if (GetBattlerSide(i) == GetBattlerSide(battler) && !(gAbsentBattlerFlags & gBitTable[i]))
+            if (GetBattlerSide(i) == GetBattlerSide(battler) && !(gAbsentBattlerFlags & (1u << i)))
                 retVal++;
         }
         break;
@@ -2179,7 +2179,7 @@ u8 GetDefaultMoveTarget(u8 battlerId)
     }
     else
     {
-        if ((gAbsentBattlerFlags & gBitTable[opposing]))
+        if ((gAbsentBattlerFlags & (1u << opposing)))
             return GetBattlerAtPosition(BATTLE_PARTNER(opposing));
         else
             return GetBattlerAtPosition(opposing);
@@ -2755,7 +2755,7 @@ u32 GetBoxMonData3(struct BoxPokemon *boxMon, s32 field, u8 *data)
                         || substruct1->move2 == move
                         || substruct1->move3 == move
                         || substruct1->move4 == move)
-                        retVal |= gBitTable[i];
+                        retVal |= (1u << i);
                     i++;
                 }
             }
@@ -5380,7 +5380,7 @@ void RandomlyGivePartyPokerus(struct Pokemon *party)
         }
         while (!GetMonData(mon, MON_DATA_SPECIES, 0) || GetMonData(mon, MON_DATA_IS_EGG, 0));
 
-        if (!(CheckPartyHasHadPokerus(party, gBitTable[rnd])))
+        if (!(CheckPartyHasHadPokerus(party, 1u << rnd)))
         {
             u8 rnd2;
 
@@ -6715,9 +6715,9 @@ void TrySpecialOverworldEvo(void)
     for (i = 0; i < PARTY_SIZE; i++)
     {
         u16 targetSpecies = GetEvolutionTargetSpecies(&gPlayerParty[i], EVO_MODE_OVERWORLD_SPECIAL, evoMethod, SPECIES_NONE);
-        if (targetSpecies != SPECIES_NONE && !(sTriedEvolving & gBitTable[i]))
+        if (targetSpecies != SPECIES_NONE && !(sTriedEvolving & (1u << i)))
         {
-            sTriedEvolving |= gBitTable[i];
+            sTriedEvolving |= 1u << i;
             if(gMain.callback2 == TrySpecialOverworldEvo) // This fixes small graphics glitches.
                 EvolutionScene(&gPlayerParty[i], targetSpecies, canStopEvo, i);
             else
@@ -7021,8 +7021,9 @@ u32 CheckDynamicMoveType(struct Pokemon *mon, u32 move, u32 battler)
     u32 ability = GetMonAbility(mon);
     u32 type1 = gSpeciesInfo[species].types[0];
     u32 type2 = gSpeciesInfo[species].types[1];
+    u32 effect = gMovesInfo[move].effect;
 
-    if (move == MOVE_IVY_CUDGEL
+    if (effect == EFFECT_IVY_CUDGEL
      && (species == SPECIES_OGERPON_WELLSPRING_MASK || species == SPECIES_OGERPON_WELLSPRING_MASK_TERA
      || species == SPECIES_OGERPON_HEARTHFLAME_MASK || species == SPECIES_OGERPON_HEARTHFLAME_MASK_TERA
      || species == SPECIES_OGERPON_CORNERSTONE_MASK || species == SPECIES_OGERPON_CORNERSTONE_MASK_TERA))
@@ -7033,11 +7034,11 @@ u32 CheckDynamicMoveType(struct Pokemon *mon, u32 move, u32 battler)
     {
         return TYPE_NORMAL;
     }
-    else if (move == MOVE_TERA_BLAST && GetActiveGimmick(battler) == GIMMICK_TERA && gBattleMons[battler].species == species)
+    else if (effect == EFFECT_TERA_BLAST && GetActiveGimmick(battler) == GIMMICK_TERA && gBattleMons[battler].species == species)
     {
         return GetMonData(mon, MON_DATA_TERA_TYPE);
     }
-    else if (move == MOVE_TERA_STARSTORM && species == SPECIES_TERAPAGOS_STELLAR)
+    else if (effect == EFFECT_TERA_STARSTORM && species == SPECIES_TERAPAGOS_STELLAR)
     {
         return TYPE_STELLAR;
     }
@@ -7045,32 +7046,32 @@ u32 CheckDynamicMoveType(struct Pokemon *mon, u32 move, u32 battler)
     {
         return CalculateHiddenPowerType(mon);
     }
-    else if (move == MOVE_AURA_WHEEL && species == SPECIES_MORPEKO_HANGRY)
+    else if (effect == EFFECT_AURA_WHEEL && species == SPECIES_MORPEKO_HANGRY)
     {
         type = TYPE_DARK;
     }
-    else if (gMovesInfo[move].effect == EFFECT_CHANGE_TYPE_ON_ITEM)
+    else if (effect == EFFECT_CHANGE_TYPE_ON_ITEM)
     {
         if (heldItemEffect == gMovesInfo[move].argument)
             return ItemId_GetSecondaryId(heldItem);
         else
             return TYPE_NORMAL;
     }
-    else if (move == MOVE_NATURAL_GIFT)
+    else if (effect == EFFECT_NATURAL_GIFT)
     {
         if (ItemId_GetPocket(heldItem) == POCKET_BERRIES)
             return gNaturalGiftTable[ITEM_TO_BERRY(heldItem)].type;
         else
             return TYPE_NORMAL;
     }
-    else if (move == MOVE_RAGING_BULL
+    else if (effect == EFFECT_RAGING_BULL
           && (species == SPECIES_TAUROS_PALDEAN_COMBAT_BREED
           || species == SPECIES_TAUROS_PALDEAN_BLAZE_BREED
           || species == SPECIES_TAUROS_PALDEAN_AQUA_BREED))
     {
         return type2;
     }
-    else if (move == MOVE_REVELATION_DANCE)
+    else if (effect == EFFECT_REVELATION_DANCE)
     {
         if (gBattleMons[battler].species != species && type1 != TYPE_MYSTERY)
             type = type1;
@@ -7085,7 +7086,7 @@ u32 CheckDynamicMoveType(struct Pokemon *mon, u32 move, u32 battler)
         else if (gBattleMons[battler].types[2] != TYPE_MYSTERY)
             type = gBattleMons[battler].types[2];
     }
-    else if (gMovesInfo[move].effect == EFFECT_TERRAIN_PULSE
+    else if (effect == EFFECT_TERRAIN_PULSE
           && ((IsMonGrounded(heldItemEffect, ability, type1, type2) && gBattleMons[battler].species != species)
            || (IsBattlerTerrainAffected(battler, STATUS_FIELD_TERRAIN_ANY) && gBattleMons[battler].species == species)))
     {
@@ -7101,7 +7102,7 @@ u32 CheckDynamicMoveType(struct Pokemon *mon, u32 move, u32 battler)
             type = TYPE_NORMAL;
     }
 
-    if (gMovesInfo[move].effect == EFFECT_WEATHER_BALL)
+    if (effect == EFFECT_WEATHER_BALL)
     {
         if (gMain.inBattle && WEATHER_HAS_EFFECT)
         {
