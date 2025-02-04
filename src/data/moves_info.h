@@ -1119,7 +1119,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Stingers on the forelegs\n"
             "jab the foe twice."),
         .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 30 : 25,
+        .power = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 40 : 25,
         .type = TYPE_BUG,
         .accuracy = 100,
         .pp = 20,
@@ -3426,20 +3426,39 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
     [MOVE_KINESIS] =
     {
         .name = COMPOUND_STRING("Kinesis"),
+    #if B_UPDATED_MOVE_DATA == GEN_CUSTOM
+        .description = COMPOUND_STRING(
+            "Super effective on Steel-\n"
+            "types. May lower accuracy."),
+        .effect = EFFECT_SUPER_EFFECTIVE_ON_ARG,
+        .power = 70,
+        .type = TYPE_PSYCHIC,
+        .accuracy = 100,
+        .pp = 20,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        .argument = { .type = TYPE_STEEL },        
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_ACC_MINUS_1,
+            .chance = 10,
+        }),
+    #else
         .description = COMPOUND_STRING(
             "Distracts the foe.\n"
             "May lower accuracy."),
         .effect = EFFECT_ACCURACY_DOWN,
         .power = 0,
         .type = TYPE_PSYCHIC,
-        .accuracy = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 90 : 80,
+        .accuracy = 80,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_STATUS,
         .zMove = { .effect = Z_EFFECT_EVSN_UP_1 },
         .magicCoatAffected = B_UPDATED_MOVE_FLAGS >= GEN_5,
-        .contestEffect = CONTEST_EFFECT_DONT_EXCITE_AUDIENCE,
+    #endif
+        .contestEffect = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? CONTEST_EFFECT_STARTLE_MONS_SAME_TYPE_APPEAL : CONTEST_EFFECT_DONT_EXCITE_AUDIENCE,
         .contestCategory = CONTEST_CATEGORY_SMART,
         .contestComboStarterId = COMBO_STARTER_KINESIS,
         .contestComboMoves = {COMBO_STARTER_CONFUSION, COMBO_STARTER_PSYCHIC},
@@ -3591,13 +3610,19 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "foe 2 to 5 times."),
         .effect = EFFECT_MULTI_HIT,
         .power = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 25 : 15,
-        .type = TYPE_NORMAL,
-        .accuracy = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 95 : 85,
+        .type = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? TYPE_GRASS : TYPE_NORMAL,
+        .accuracy = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 90 : 85,
         .pp = 20,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .ballisticMove = TRUE,
+    #if B_UPDATED_MOVE_DATA == GEN_CUSTOM
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_SPD_MINUS_1,
+            .chance = 10,
+        }),
+    #endif
         .contestEffect = CONTEST_EFFECT_BETTER_IF_SAME_TYPE,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
         .contestComboStarterId = 0,
@@ -3959,9 +3984,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Throws a bone boomerang\n"
             "that strikes twice."),
         .effect = EFFECT_HIT,
-        .power = 50,
+        .power = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 55 : 50,
         .type = TYPE_GROUND,
-        .accuracy = 90,
+        .accuracy = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 95 : 90,
         .pp = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -4118,7 +4143,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .category = DAMAGE_CATEGORY_SPECIAL,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_TRI_ATTACK,
-            .chance = 20,
+            .chance = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 30 : 20,
         }),
         .contestEffect = CONTEST_EFFECT_STARTLE_PREV_MONS,
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
@@ -4278,7 +4303,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Kicks the foe 3 times in a\n"
             "row with rising intensity."),
         .effect = EFFECT_TRIPLE_KICK,
-        .power = 10,
+        .power = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 15 : 10,
         .type = TYPE_FIGHTING,
         .accuracy = 90,
         .pp = 10,
@@ -4847,7 +4872,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Fires a lump of ink to\n"
             "damage and cut accuracy."),
         .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 75 : 65,
+        .power = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 80 : 65,
         .type = TYPE_WATER,
         .accuracy = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 100 : 85,
         .pp = 10,
@@ -15659,9 +15684,9 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Swings the fist to strike.\n"
             "Lowers the user's Speed."),
         .effect = EFFECT_HIT,
-        .power = 100,
+        .power = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 110 : 100,
         .type = TYPE_ICE,
-        .accuracy = 90,
+        .accuracy = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 95 : 90,
         .pp = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -19462,7 +19487,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Furiously strains its legs.\n"
             "Harshly lowers user's Speed."),
         .effect = EFFECT_HIT,
-        .power = 100,
+        .power = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 120 : 100,
         .type = TYPE_STEEL,
         .accuracy = 100,
         .pp = 5,
@@ -20029,7 +20054,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Mystical eye-beams that hit\n"
             "the target twice in a row."),
         .effect = EFFECT_HIT,
-        .power = 40,
+        .power = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 45 : 40,
         .type = TYPE_PSYCHIC,
         .accuracy = 100,
         .pp = 10,
@@ -20038,6 +20063,16 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
         .category = DAMAGE_CATEGORY_SPECIAL,
         .strikeCount = 2,
         .metronomeBanned = TRUE,
+    #if B_UPDATED_MOVE_DATA == GEN_CUSTOM
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_SP_ATK_MINUS_1,
+            .chance = 10,
+        },
+        {
+            .moveEffect = MOVE_EFFECT_SP_DEF_MINUS_1,
+            .chance = 10,
+        }),
+    #endif
         .battleAnimScript = gBattleAnimMove_TwinBeam,
     },
 
