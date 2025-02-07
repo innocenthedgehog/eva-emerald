@@ -3976,7 +3976,11 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         )
         .levelUpLearnset = sLoudredLevelUpLearnset,
         .teachableLearnset = sLoudredTeachableLearnset,
+    #if P_UPDATED_STATS == GEN_CUSTOM
+        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_EXPLOUD}),
+    #else
         .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_EXPLOUD}),
+    #endif
     },
 
     [SPECIES_EXPLOUD] =
