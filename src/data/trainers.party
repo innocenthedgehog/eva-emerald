@@ -231,13 +231,22 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer
 
 Poochyena
 Level: 10
+- Tackle
+- Howl
+- Sand Attack
+- Bite
 
 Carvanha
 Level: 11
+Ability: Speed Boost
+- Bite
+- Leer
+- Rage
+- Aqua Jet
 
 === TRAINER_MARCEL ===
 Name: MARCEL
@@ -324,11 +333,24 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Risky
 
 Poochyena
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 14
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Bite
+- Howl
+- Swagger
+- Dig
+
+Carvanha
+Level: 16
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+Ability: Speed Boost
+- Bite
+- Leer
+- Poison Fang
+- Aqua Jet
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -2125,7 +2147,7 @@ Gender: Female
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer
 
 Oricorio (F) @ Nugget
 Level: 9
@@ -2532,7 +2554,7 @@ Gender: Male
 Music: Rich
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer
 
 Clamperl (M) @ Big Pearl
 Level: 10
@@ -4823,7 +4845,7 @@ IVs: 15 HP / 12 Atk / 15 Def / 12 SpA / 15 SpD / 15 Spe
 - Mega Drain
 - Acid
 - Stealth Rock
-- Rock Tomb
+- Ingrain
 
 Nosepass @ Berry Juice
 Level: 16
@@ -5143,7 +5165,7 @@ Pic: School Kid M
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Abra @ Focus Sash
 Level: 15
@@ -5262,13 +5284,20 @@ Pic: School Kid F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Azurill
-Level: 12
+Level: 13
+- Water Sport
+- Charm
+- Bubble Beam
 
 Chingling
 Level: 13
+- Wrap
+- Astonish
+- Confusion
+- Yawn
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -5965,9 +5994,13 @@ AI: Check Bad Move
 
 Pikipek
 Level: 3
+- Peck
+- Growl
 
 Poochyena
 Level: 5
+- Tackle
+- Howl
 
 === TRAINER_BILLY ===
 Name: BILLY
@@ -5980,12 +6013,23 @@ AI: Check Bad Move
 
 Zigzagoon
 Level: 6
+- Tackle
+- Growl
+- Sand Attack
+- Tail Whip
 
 Taillow
 Level: 6
+- Peck
+- Growl
+- Focus Energy
 
 Marill
 Level: 7
+- Tackle
+- Tail Whip
+- Water Sport
+- Bubble
 
 === TRAINER_JOSH ===
 Name: JOSH
@@ -5994,7 +6038,7 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer
 
 Roggenrola
 Level: 12
@@ -6008,7 +6052,6 @@ Geodude
 Level: 12
 Ability: Sturdy
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Defense Curl
 - Rollout
 
 === TRAINER_TOMMY ===
@@ -6018,25 +6061,24 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer
 
 Geodude
 Level: 12
 Ability: Sturdy
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bulldoze
 - Thunder Punch
 - Curse
 - Wide Guard
 
 Rhyhorn
-Level: 12
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+Level: 13
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Ability: Lightning Rod
 - Smack Down
 - Bulldoze
 - Tail Whip
-
 
 === TRAINER_JOEY ===
 Name: JOEY
@@ -6045,11 +6087,26 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer
+
+Machop
+Level: 12
+- Low Kick
+- Leer
+- Foresight
+- Low Sweep
+
+Vulpix
+Level: 12
+- Ember
+- Baby Doll Eyes
+- Quick Attack
+- Confuse Ray
 
 Rockruff
-Level: 14
+Level: 13
 - Tackle
+- Leer
 - Sand Attack
 - Rock Throw
 
@@ -6255,10 +6312,20 @@ Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon
-Level: 5
+Level: 4
+- Tackle
+- Growl
+- Sand Attack
+
+Taillow
+Level: 4
+- Peck
+- Growl
 
 Gulpin
 Level: 5
+- Pound
+- Yawn
 
 === TRAINER_TIMMY ===
 Name: TIMMY
@@ -6368,12 +6435,17 @@ AI: Check Bad Move
 
 Magikarp
 Level: 11
+- Splash
 
 Remoraid
 Level: 11
+- Water Gun
+- Psybeam
 
 Barboach
 Level: 11
+- Mud Slap
+- Water Gun
 
 === TRAINER_CLAUDE ===
 Name: CLAUDE
@@ -7885,7 +7957,7 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Meditite
 Level: 13
@@ -8841,10 +8913,18 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Foongus
-Level: 12
+Level: 11
+- Absorb
+- Astonish
+- Growth
+- Stun Spore
 
 Shroomish
-Level: 12
+Level: 11
+- Tackle
+- Absorb
+- Stun Spore
+- Leech Seed
 
 === TRAINER_MIU_AND_YUKI ===
 Name: MIU & YUKI
@@ -10590,19 +10670,19 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer
 
 Silicobra
 Level: 12
 Ability: Shed Skin
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Brutal Swing
 - Sand Tomb
 - Wrap
 
 Rockruff
-Level: 12
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Level: 13
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Ability: Vital Spirit
 - Rock Throw
 - Leer
@@ -10915,7 +10995,7 @@ Level: 16
 Ability: Speed Boost
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Flame Charge
-- Peck
+- Cut
 - Sand Attack
 - Double Kick
 
@@ -10943,15 +11023,15 @@ Ability: Simple
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Tackle
 - Yawn
-- Bulldoze
-- Incinerate
+- Magnitude
+- Flame Burst
 
 Grovyle (M) @ Oran Berry
 Level: 16
 Ability: Unburden
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Leafage
-- Quick Attack
+- Cut
 - Leer
 - Dragon Tail
 
@@ -11069,8 +11149,8 @@ Ability: Simple
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Tackle
 - Yawn
-- Bulldoze
-- Incinerate
+- Magnitude
+- Flame Burst
 
 Marshtomp (M) @ Oran Berry
 Level: 16
@@ -11105,15 +11185,15 @@ Ability: Simple
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Tackle
 - Yawn
-- Bulldoze
-- Incinerate
+- Magnitude
+- Flame Burst
 
 Grovyle (F) @ Oran Berry
 Level: 16
 Ability: Unburden
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Leafage
-- Quick Attack
+- Cut
 - Leer
 - Dragon Tail
 
@@ -11168,16 +11248,25 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer
 
 Lotad
-Level: 6
+Level: 5
+- Astonish
+- Growl
 
 Seedot
-Level: 6
+Level: 5
+- Bide
+- Harden
+- Absorb
 
 Budew
 Level: 6
+- Absorb
+- Growth
+- Stun Spore
+- Worry Seed
 
 === TRAINER_HALEY_1 ===
 Name: HALEY
@@ -11188,14 +11277,26 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
+Slakoth
+Level: 9
+- Scratch
+- Yawn
+- Encore
+- Slack Off
+
 Lotad
-Level: 10
+Level: 9
+- Astonish
+- Growl
+- Absorb
+- Bubble
 
 Taillow
 Level: 10
-
-Ralts
-Level: 10
+- Peck
+- Growl
+- Focus Energy
+- Quick Attack
 
 === TRAINER_JANICE ===
 Name: JANICE
@@ -11204,13 +11305,14 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Skitty
+Skitty (F) @ Focus Sash
 Level: 15
+- Fake Out
 - Disarming Voice
 - Attract
-- Substitute
+- Sing
 
 === TRAINER_VIVI ===
 Name: VIVI
@@ -11379,13 +11481,19 @@ Double Battle: No
 AI: Check Bad Move
 
 Wurmple
-Level: 5
+Level: 4
+- Tackle
+- String Shot
 
 Wurmple
 Level: 5
+- Tackle
+- String Shot
+- Poison Sting
 
 Surskit
 Level: 5
+- Bubble
 
 === TRAINER_LYLE ===
 Name: LYLE
@@ -11396,14 +11504,28 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
+Wurmple
+Level: 6
+- Tackle
+- String Shot
+- Poison Sting
+
 Silcoon
-Level: 8
+Level: 7
+- Tackle
+- String Shot
+- Harden
 
 Cascoon
-Level: 8
+Level: 7
+- Tackle
+- String Shot
+- Harden
 
 Yanma
 Level: 8
+- Foresight
+- Quick Attack
 
 === TRAINER_JOSE ===
 Name: JOSE
@@ -11412,14 +11534,22 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Wurmple
 Level: 12
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Tackle
+- String Shot
+- Poison Sting
+- Bug Bite
 
 Surskit
-Level: 12
+Level: 14
+- Bubble
+- Quick Attack
+- Sweet Scent
+- Water Sport
 
 === TRAINER_DOUG ===
 Name: DOUG
@@ -11479,12 +11609,20 @@ AI: Check Bad Move
 
 Surskit
 Level: 7
+- Bubble
+- Quick Attack
 
 Nincada
 Level: 9
+- Scratch
+- Absorb
+- Sand Attack
 
 Nincada
 Level: 9
+- Scratch
+- Absorb
+- Harden
 
 === TRAINER_JAMES_2 ===
 Name: JAMES
@@ -11662,13 +11800,19 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Geodude
+Whismur
 Level: 13
+- Echoed Voice
+- Astonish
 
 Machop
 Level: 13
+- Low Kick
+- Bulk Up
+- Foresight
+- Low Sweep
 
 === TRAINER_ERIC ===
 Name: ERIC
@@ -13056,13 +13200,19 @@ Pic: Rich Boy
 Gender: Male
 Music: Rich
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer
 
 Mankey
-Level: 13
+Level: 14
+- Fury Swipes
+- Karate Chop
+- Pursuit
 
 Ralts @ Nugget
-Level: 14
+Level: 15
+- Confusion
+- Draining Kiss
+- Lucky Chant
 
 === TRAINER_SARAH ===
 Name: SARAH
@@ -13072,18 +13222,18 @@ Gender: Female
 Music: Female
 Items: Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Basic Trainer
 
-Spheal
+Pikipek
 Level: 14
-- Ice Ball
-- Defense Curl
-
-Pikipek @ Nugget
-Level: 15
 - Echoed Voice
 - Rock Smash
 - Pluck
+
+Spheal @ Nugget
+Level: 15
+- Ice Ball
+- Defense Curl
 
 === TRAINER_DARIAN ===
 Name: DARIAN
@@ -13095,10 +13245,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Magikarp
-Level: 9
+Level: 8
+- Splash
 
 Goldeen
-Level: 9
+Level: 8
+- Peck
+- Tail Whip
+- Supersonic
+- Horn Attack
 
 === TRAINER_HAILEY ===
 Name: HAILEY
@@ -13977,13 +14132,20 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Rockruff
 Level: 13
+- Tackle
+- Double Team
+- Rock Throw
 
 Numel
 Level: 14
+- Tackle
+- Ember
+- Magnitude
+- Helping Hand
 
 === TRAINER_JOHNSON ===
 Name: JOHNSON
@@ -13992,13 +14154,21 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Shroomish
 Level: 13
+- Tackle
+- Stun Spore
+- Leech Seed
+- Mega Drain
 
 Spoink
 Level: 14
+- Psywave
+- Odor Sleuth
+- Psybeam
+- Helping Hand
 
 === TRAINER_MELINA ===
 Name: MELINA
@@ -14267,7 +14437,7 @@ Level: 16
 Ability: Speed Boost
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Flame Charge
-- Peck
+- Cut
 - Sand Attack
 - Double Kick
 
@@ -14295,8 +14465,8 @@ Ability: Simple
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Tackle
 - Yawn
-- Bulldoze
-- Incinerate
+- Magnitude
+- Flame Burst
 
 Marshtomp (F) @ Oran Berry
 Level: 16
