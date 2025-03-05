@@ -3201,11 +3201,23 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Machop
-Level: 13
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Wynaut
+Level: 16
+IVs: 0 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Counter
+- Mirror Coat
+- Encore
+- Amnesia
+
+Wobbuffet
+Level: 16
+IVs: 0 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Counter
+- Mirror Coat
+- Safeguard
+- Destiny Bond
 
 === TRAINER_HITOSHI ===
 Name: HITOSHI
@@ -4862,32 +4874,34 @@ Class: Leader
 Pic: Leader Brawly
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Machop
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
-- Bulk Up
-
-Meditite
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
+Meditite @ Light Clay
+Level: 19
+Ability: Pure Power
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Feint
 - Light Screen
 - Reflect
+- Fire Punch
+
+Makuhita @ Lum Berry
+Level: 19
+Ability: Thick Fat
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Force Palm
+- Knock Off
+- Thunder Punch
 - Bulk Up
 
-Makuhita @ Sitrus Berry
-Level: 19
+Crabrawler @ Expert Belt
+Level: 22
+Ability: Iron Fist
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
-- Vital Throw
-- Reversal
+- Power Up Punch
+- Ice Punch
+- Pursuit
 - Bulk Up
 
 === TRAINER_WATTSON_1 ===
@@ -7944,11 +7958,20 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Meditite
-Level: 13
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+Machop
+Level: 16
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Knock Off
+- Revenge
+
+Scyther
+Level: 18
+Ability: Steadfast
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- False Swipe
+- Pursuit
 
 === TRAINER_LAURA ===
 Name: LAURA
@@ -7959,9 +7982,22 @@ Music: Intense
 Double Battle: No
 AI: Basic Trainer
 
+Mankey
+Level: 16
+Ability: Defiant
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Taunt
+- Low Kick
+- Beat Up
+- Counter
+
 Meditite
-Level: 13
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Level: 17
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fake Out
+- Confusion
+- Detect
+- Power Swap
 
 === TRAINER_CYNDY_1 ===
 Name: CYNDY
@@ -10696,11 +10732,24 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Machop
-Level: 13
+Shellos
+Level: 17
+Ability: Storm Drain
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Yawn
+- Clear Smog
+- Recover
+
+Remoraid
+Level: 18
+Ability: Sniper
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aurora Beam
+- Psybeam
+- Acid Spray
 
 === TRAINER_LILITH ===
 Name: LILITH
@@ -10709,11 +10758,22 @@ Pic: Battle Girl
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Meditite
-Level: 13
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Machop
+Level: 17
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Low Sweep
+- Knock Off
+- Power Trick
+- Coaching
+
+Pinsir
+Level: 18
+IVs: 12 HP / 6 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Seismic Toss
+- Bind
+- Vise Grip
 
 === TRAINER_CRISTIAN ===
 Name: CRISTIAN
@@ -10722,11 +10782,16 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Makuhita
-Level: 13
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Level: 18
+Ability: Thick Fat
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fire Punch
+- Ice Punch
+- Thunder Punch
+- Bullet Punch
 
 === TRAINER_SYLVIA ===
 Name: SYLVIA

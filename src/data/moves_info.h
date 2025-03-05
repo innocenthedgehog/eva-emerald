@@ -378,7 +378,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "Grips the foe with large and\n"
             "powerful pincers."),
         .effect = EFFECT_HIT,
-        .power = 55,
+        .power = B_UPDATED_MOVE_DATA == GEN_CUSTOM ? 40 : 55,
         .type = B_UPDATED_MOVE_TYPES == GEN_CUSTOM ? TYPE_BUG : TYPE_NORMAL,
         .accuracy = 100,
         .pp = 30,
