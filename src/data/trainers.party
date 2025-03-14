@@ -414,11 +414,25 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Risky
+
+Zubat
+Level: 18
+Ability: Inner Focus
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Aerial Ace
+- Bite
+- Mega Drain
+- Confuse Ray
 
 Carvanha
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 20
+Ability: Rough Skin
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Aqua Jet
+- Assurance
+- Screech
+- Secret Power
 
 === TRAINER_GRUNT_MUSEUM_2 ===
 Name: GRUNT
@@ -427,15 +441,24 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer / Risky
 
-Zubat
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sneasel
+Level: 18
+Ability: Pickpocket
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Fake Out
+- Feint Attack
+- Icy Wind
+- Feint
 
-Carvanha
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Corphish
+Level: 20
+Ability: Adaptability
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Bubble Beam
+- Vise Grip
+- Metal Claw
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -1065,15 +1088,23 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Azurill
-Level: 12
+Spheal
+Level: 17
+Ability: Thick Fat
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Water Gun
+- Ice Ball
+- Encore
 
-Azurill
-Level: 12
+Tynamo
+Level: 18
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Tackle
+- Thunder Wave
+- Spark
+- Charge Beam
 
 === TRAINER_AUSTINA ===
 Name: AUSTINA
@@ -1176,15 +1207,22 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Zigzagoon
-Level: 13
+Level: 18
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Sand Attack
 - Headbutt
-- Tail Whip
+- Sand Attack
 - Surf
+
+Makuhita
+Level: 17
+Ability: Thick Fat
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Fake Out
+- Surf
+- Whirlwind
 
 === TRAINER_SIMON ===
 Name: SIMON
@@ -1193,15 +1231,32 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Azurill
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 13
+Ability: Thick Fat
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Bubble Beam
+- Charm
+- Tail Whip
 
 Marill
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 13
+Ability: Huge Power
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Bubble Beam
+- Defense Curl
+- Rollout
+
+Azumarill
+Level: 13
+Ability: Sap Sipper
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Chilling Water
+- Amnesia
+- Present
+- Perish Song
 
 === TRAINER_CHARLIE ===
 Name: CHARLIE
@@ -6489,19 +6544,25 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Magikarp
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 15
+- Splash
+- Tackle
 
-Tentacool
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Goldeen
+Level: 15
+- Horn Attack
+- Flail
+- Peck
+- Water Sport
 
-Magikarp
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Horsea
+Level: 15
+- bubble
+- Twister
+- Smokescreen
 
 === TRAINER_NED ===
 Name: NED
@@ -6510,11 +6571,25 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Tentacool
-Level: 11
+Level: 14
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Ability: Liquid Ooze
+- Constrict
+- Acid
+- Water Gun
+- Toxic Spikes
+
+Mareanie
+Level: 15
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Ability: Merciless
+- Poison Sting
+- Bite
+- Peck
+- Toxic Spikes
 
 === TRAINER_DALE ===
 Name: DALE
@@ -9091,15 +9166,23 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Wingull
-Level: 12
+Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Wing Attack
+- Water Gun
+- Supersonic
+- Quick Attack
 
 Machop
-Level: 12
+Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Low Kick
+- Detect
+- Leer
+- Foresight
 
 === TRAINER_EDMOND ===
 Name: EDMOND
@@ -9108,11 +9191,20 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Wingull
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacool
+Level: 16
+- Water Pulse
+- Acid
+- Toxic Spikes
+
+Corsola
+Level: 17
+- Bubble Beam
+- Ancient Power
+- Harden
+- Recover
 
 === TRAINER_ERNEST_1 ===
 Name: ERNEST
@@ -9138,19 +9230,31 @@ Pic: Sailor
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
 Wingull
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 16
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Gun
+- Wing Attack
+- Icy Wind
+- Quick Attack
 
 Machop
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 17
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Karate Chop
+- Foresight
+- Focus Energy
+- Thunder Punch
 
-Tentacool
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Aron @ Leftovers
+Level: 18
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rock Tomb
+- Metal Claw
+- Headbutt
+- Protect
 
 === TRAINER_PHILLIP ===
 Name: PHILLIP
@@ -12179,11 +12283,27 @@ Pic: Beauty
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Goldeen
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Feebas
+Level: 18
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Splash
+- Tackle
+
+Luvdisc
+Level: 18
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Water Pulse
+- Draining Kiss
+
+Beautifly
+Level: 18
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Gust
+- Absorb
+- Morning Sun
+- Stun Spore
 
 === TRAINER_GERALD ===
 Name: GERALD
@@ -13327,11 +13447,24 @@ Pic: Tuber F
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Marill
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 16
+Ability: Huge Power
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Bubble Beam
+- Rollout
+- Helping Hand
+
+Mantyke
+Level: 17
+Ability: Water Absorb
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Bubble Beam
+- Wing Attack
+- Headbutt
+- Confuse Ray
 
 === TRAINER_CHANDLER ===
 Name: CHANDLER
@@ -13340,15 +13473,24 @@ Pic: Tuber M
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
 Tentacool
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 17
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Chilling Water
+- Aurora Beam
+- Aqua Ring
+- Acupressure
 
-Tentacool
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Clamperl
+Level: 18
+Ability: Shell Armor
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Clamp
+- Water Gun
+- Whirlpool
+- Iron Defense
 
 === TRAINER_KALEB ===
 Name: KALEB
