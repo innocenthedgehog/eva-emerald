@@ -16447,13 +16447,63 @@ Name: ANABEL
 Class: Salon Maiden
 Pic: Salon Maiden Anabel
 Gender: Female
-Music: Male
+Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Prediction
 
-Beldum
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kadabra @ Bright Powder
+Level: 25
+Ability: Synchronize
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Psybeam
+- Charge Beam
+- Encore
+- Thunder Wave
+
+Metang @ Occa Berry
+Level: 25
+Ability: Clear Body
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Stealth Rock
+- Metal Claw
+- Bulldoze
+- Pursuit
+
+Sneasel @ Focus Sash
+Level: 25
+Ability: Inner Focus
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hone Claws
+- Feint Attack
+- Ice Shard
+- Aerial Ace
+
+Misdreavus @ Lum Berry
+Level: 25
+Ability: Levitate
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Mean Look
+- Hex
+- Will O Wisp
+- Torment
+
+Bagon @ Salac Berry
+Level: 25
+Ability: Sheer force
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Headbutt
+- Dragon Breath
+- Crunch
+- Fire Fang
+
+Snorlax @ Quick Claw
+Level: 25
+Ability: Thick Fat
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Chip Away
+- Lick
+- Amnesia
+- Yawn
 
 === TRAINER_TUCKER ===
 Name: TUCKER
@@ -16461,12 +16511,30 @@ Class: Dome Ace
 Pic: Dome Ace Tucker
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
-Beldum
+Arcanine
+Level: 35
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fire Pledge
+
+Swampert
+Level: 35
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Water Pledge
+
+Shelgon
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Charizard
+Level: 5
+
+Bellossom
+Level: 5
+
+Exploud
+Level: 5
 
 === TRAINER_SPENSER ===
 Name: SPENSER
@@ -16475,24 +16543,52 @@ Pic: Palace Maven Spenser
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Prediction
 
-Beldum
+Crobat
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Slaking
+Level: 5
+
+Lapras
+Level: 5
+
+Claydol
+Level: 5
+
+Dusknoir
+Level: 5
+
+Chansey
+Level: 5
 
 === TRAINER_GRETA ===
 Name: GRETA
 Class: Arena Tycoon
 Pic: Arena Tycoon Greta
 Gender: Female
-Music: Male
+Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Beldum
+Umbreon
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Heracross
+Level: 5
+
+Shedinja
+Level: 5
+
+Gengar
+Level: 5
+
+Breloom
+Level: 5
+
+Hariyama
+Level: 5
 
 === TRAINER_NOLAND ===
 Name: NOLAND
@@ -16501,24 +16597,52 @@ Pic: Factory Head Noland
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Beldum
+Smeargle
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pinsir
+Level: 5
+
+Rhyperior
+Level: 5
+
+Golduck
+Level: 5
+
+Manectric
+Level: 5
+
+Flygon
+Level: 5
 
 === TRAINER_LUCY ===
 Name: LUCY
 Class: Pike Queen
 Pic: Pike Queen Lucy
 Gender: Female
-Music: Male
+Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Beldum
+Seviper
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Shuckle
+Level: 5
+
+Milotic
+Level: 5
+
+Steelix
+Level: 5
+
+Gyarados
+Level: 5
+
+Garchomp
+Level: 5
 
 === TRAINER_BRANDON ===
 Name: BRANDON
@@ -16527,7 +16651,7 @@ Pic: Pyramid King Brandon
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Beldum
 Level: 5
