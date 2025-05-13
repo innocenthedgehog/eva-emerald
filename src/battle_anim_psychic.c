@@ -493,7 +493,7 @@ static void AnimPsychoCut(struct Sprite *sprite)
     }
     else
     {
-        if (GetBattlerSide(gBattleAnimAttacker))
+        if (GetBattlerSide(gBattleAnimAttacker) == B_SIDE_OPPONENT)
         {
             gBattleAnimArgs[2] = -gBattleAnimArgs[2];
             gBattleAnimArgs[1] = -gBattleAnimArgs[1];
@@ -516,7 +516,7 @@ static void AnimPsychoCut(struct Sprite *sprite)
         }
     }
 
-    InitSpritePosToAnimAttacker(sprite, 1);
+    InitSpritePosToAnimAttacker(sprite, TRUE);
 
     lVarX = GetBattlerSpriteCoord(gBattleAnimTarget, BATTLER_COORD_X_2) + gBattleAnimArgs[2];
     lVarY = GetBattlerSpriteCoord(gBattleAnimTarget, BATTLER_COORD_Y_PIC_OFFSET) + gBattleAnimArgs[3];
