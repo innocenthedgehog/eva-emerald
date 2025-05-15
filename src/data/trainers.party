@@ -4842,50 +4842,63 @@ Class: Elite Four
 Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Prediction
 Mugshot: Blue
 
-Shelgon
-Level: 52
+Spiritomb @ Leftovers
+Level: 62
+Ability: Pressure
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Rock Tomb
-- Dragon Claw
-- Protect
-- Double Edge
+- Dark Pulse
+- Shadow Ball
+- Will-O-Wisp
+- Calm Mind
 
-Altaria
-Level: 54
+Roserade @ Poison Barb
+Level: 62
+Ability: Poison Point
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Edge
-- Dragon Breath
-- Dragon Dance
-- Aerial Ace
+- Energy Ball
+- Sludge Bomb
+- Extrasensory
+- Toxic Spikes
 
-Kingdra
-Level: 53
+Togekiss @ Wise Glasses
+Level: 62
+Ability: Serene Grace
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Smokescreen
-- Dragon Dance
-- Surf
-- Body Slam
+- Air Slash
+- Aura Sphere
+- Water Pulse
+- Roost
 
-Flygon
-Level: 53
+Lucario @ Life Orb
+Level: 62
+Ability: Steadfast
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Flamethrower
-- Crunch
-- Dragon Breath
+- Close Combat
+- Flash Cannon
 - Earthquake
+- Extreme Speed
 
-Salamence @ Sitrus Berry
-Level: 55
+Porygon-Z @ Silk Scarf
+Level: 62
+Ability: Adaptability
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Tri Attack
+- Thunderbolt
+- Ice Beam
+- Hyper Beam
+
+Garchomp @ Yache Berry
+Level: 63
+Ability: Rough Skin
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Dragon Claw
-- Rock Slide
-- Crunch
+- Dragon Rush
+- Earthquake
+- Stone Edge
+- Fire Blast
 
 === TRAINER_ROXANNE_1 ===
 Name: ROXANNE
@@ -17528,3 +17541,67 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_TESTING ===
+Name: TESTING
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Double Battle: No
+AI: Basic Trainer
+
+Infernape @ Expert Belt
+Level: 63
+Ability: Blaze
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Flamethrower
+- Shadow Claw
+- U-turn
+
+Floatzel @ Life Orb
+Level: 63
+Ability: Water Veil
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Waterfall
+- Crunch
+- Ice Fang
+- Pursuit
+
+Staraptor @ Choice Band
+Level: 63
+Ability: Intimidate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Happiness: 255
+- Return
+- Brave Bird
+- Close Combat
+- Quick Attack
+
+Garchomp @ Choice Scarf
+Level: 63
+Ability: Rough Skin
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Outrage
+- Earthquake
+- Dragon Claw
+- Stone Edge
+
+Jolteon @ choice specs
+Level: 63
+Ability: Volt Absorb
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 30 Spe
+- Thunderbolt
+- shadow Ball
+- Signal Beam
+- Hidden Power
+
+Weavile @ Black Glasses
+Level: 63
+Ability: Pressure
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Pursuit
+- Ice Shard
+- Low Kick
+- Night Slash
