@@ -11957,7 +11957,7 @@ F_TRAINER_FEMALE |
 #line 4845
         .doubleBattle = FALSE,
 #line 4846
-        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION,
+        .aiFlags = AI_FLAG_SMART_TRAINER,
 #line 4847
         .mugshotColor = MUGSHOT_COLOR_BLUE,
         .partySize = 6,

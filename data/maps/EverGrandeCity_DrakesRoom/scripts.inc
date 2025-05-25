@@ -43,7 +43,7 @@ EverGrandeCity_DrakesRoom_EventScript_Drake::
 	goto_if_set FLAG_DEFEATED_ELITE_4_DRAKE, EverGrandeCity_DrakesRoom_EventScript_PostBattleSpeech
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_DrakesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_DRAKE, EverGrandeCity_DrakesRoom_Text_Defeat
+	ai_vs_ai_battle TRAINER_TESTING, TRAINER_DRAKE
 	goto EverGrandeCity_DrakesRoom_EventScript_Defeated
 	end
 
