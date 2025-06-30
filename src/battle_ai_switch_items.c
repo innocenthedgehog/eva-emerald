@@ -101,6 +101,10 @@ u32 GetSwitchChance(enum ShouldSwitchScenario shouldSwitchScenario)
             return SHOULD_SWITCH_ATTACKING_STAT_MINUS_TWO_PERCENTAGE;
         case SHOULD_SWITCH_ATTACKING_STAT_MINUS_THREE_PLUS:
             return SHOULD_SWITCH_ATTACKING_STAT_MINUS_THREE_PLUS_PERCENTAGE;
+        case SHOULD_SWITCH_ACCURACY_MINUS_TWO:
+            return SHOULD_SWITCH_ACCURACY_MINUS_TWO_PERCENTAGE;
+        case SHOULD_SWITCH_ACCURACY_MINUS_THREE_PLUS:
+            return SHOULD_SWITCH_ACCURACY_MINUS_THREE_PLUS_PERCENTAGE;
         case SHOULD_SWITCH_ALL_SCORES_BAD:
             return SHOULD_SWITCH_ALL_SCORES_BAD_PERCENTAGE;
         default:
@@ -1069,6 +1073,30 @@ static bool32 ShouldSwitchIfAttackingStatsLowered(u32 battler)
     return FALSE;
 }
 
+static bool32 ShouldSwitchIfAccuracyLowered(u32 battler)
+{
+    s8 accuracyStage = gBattleMons[battler].statStages[STAT_ACC];
+
+    // Only use this if AI_FLAG_SMART_SWITCHING is set for the trainer
+    if (!(gAiThinkingStruct->aiFlags[GetThinkingBattler(battler)] & AI_FLAG_SMART_SWITCHING))
+        return FALSE;
+
+    // Don't switch if accuracy isn't below -1
+    if (accuracyStage > DEFAULT_STAT_STAGE - 2)
+        return FALSE;
+    // 50% chance if accuracy at -2 and have a good candidate mon
+    else if (accuracyStage == DEFAULT_STAT_STAGE - 2)
+    {
+        if (gAiLogicData->mostSuitableMonId[battler] != PARTY_SIZE && (RandomPercentage(RNG_AI_SWITCH_STATS_LOWERED, GetSwitchChance(SHOULD_SWITCH_ACCURACY_MINUS_TWO)) || gAiLogicData->aiPredictionInProgress))
+            return SetSwitchinAndSwitch(battler, PARTY_SIZE);
+    }
+    // If at -3 or worse, switch out regardless
+    else if ((accuracyStage < DEFAULT_STAT_STAGE - 2) && RandomPercentage(RNG_AI_SWITCH_STATS_LOWERED, GetSwitchChance(SHOULD_SWITCH_ACCURACY_MINUS_THREE_PLUS)))
+        return SetSwitchinAndSwitch(battler, PARTY_SIZE);
+
+    return FALSE;
+    }
+
 bool32 ShouldSwitch(u32 battler)
 {
     u32 battlerIn1, battlerIn2;
@@ -1163,6 +1191,8 @@ bool32 ShouldSwitch(u32 battler)
     if (ShouldSwitchIfBadChoiceLock(battler))
         return TRUE;
     if (ShouldSwitchIfAttackingStatsLowered(battler))
+        return TRUE;
+    if (ShouldSwitchIfAccuracyLowered(battler))
         return TRUE;
 
     // Removing switch capabilites under specific conditions

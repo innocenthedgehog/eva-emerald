@@ -1014,6 +1014,26 @@ AI_SINGLE_BATTLE_TEST("AI_FLAG_SMART_SWITCHING: AI will switch out if main attac
     }
 }
 
+AI_SINGLE_BATTLE_TEST("AI_FLAG_SMART_SWITCHING: AI will switch out if accuracy lowered by 2 stages with good switchin candidate 50% of the time")
+{
+    u32 aiSpecies = SPECIES_NONE, aiMove = MOVE_NONE, move = MOVE_NONE;
+
+    PASSES_RANDOMLY(SHOULD_SWITCH_ACCURACY_MINUS_TWO_PERCENTAGE, 100, RNG_AI_SWITCH_STATS_LOWERED);
+    PARAMETRIZE {move = MOVE_SAND_ATTACK; aiSpecies = SPECIES_FLAREON; aiMove = MOVE_EMBER; };
+
+    GIVEN {
+        ASSUME(GetMoveEffect(MOVE_SAND_ATTACK) == EFFECT_ACCURACY_DOWN);
+        AI_FLAGS(AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_CHECK_VIABILITY | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SMART_SWITCHING);
+        PLAYER(SPECIES_ARON) { Moves(move, MOVE_SCRATCH); }
+        OPPONENT(aiSpecies) { Moves(aiMove); }
+        OPPONENT(SPECIES_MILOTIC) { Moves(MOVE_WATER_GUN); }
+    } WHEN {
+        TURN { MOVE(player, move); EXPECT_MOVE(opponent, aiMove); }
+        TURN { MOVE(player, move); EXPECT_MOVE(opponent, aiMove); }
+        TURN { MOVE(player, MOVE_SCRATCH); EXPECT_SWITCH(opponent, 1); }
+    }
+}
+
 AI_SINGLE_BATTLE_TEST("Switch AI: AI will switch into mon with good type matchup and SE move if current mon has no SE move and no stats raised")
 {
     KNOWN_FAILING; // Either remove or replace the function
