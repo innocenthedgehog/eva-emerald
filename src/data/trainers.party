@@ -4843,55 +4843,55 @@ Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
 Battle Type: Singles
-AI: Smart Trainer
+AI: Smart Trainer / Prediction
 Mugshot: Blue
 
 Spiritomb @ Leftovers
-Level: 62
+Level: 63
 Ability: Pressure
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dark Pulse
 - Shadow Ball
 - Will-O-Wisp
 - Calm Mind
 
-Roserade @ Poison Barb
-Level: 62
+Roserade @ Focus sash
+Level: 63
 Ability: Poison Point
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Energy Ball
-- Sludge Bomb
-- Extrasensory
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 30 SpD / 31 Spe
+- Leaf Storm
+- Sleep Powder
+- Hidden Power
 - Toxic Spikes
 
 Togekiss @ Wise Glasses
-Level: 62
+Level: 63
 Ability: Serene Grace
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Air Slash
 - Aura Sphere
 - Water Pulse
 - Roost
 
 Lucario @ Life Orb
-Level: 62
+Level: 63
 Ability: Steadfast
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Close Combat
 - Flash Cannon
 - Earthquake
 - Extreme Speed
 
 Porygon-Z @ Silk Scarf
-Level: 62
+Level: 63
 Ability: Adaptability
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tri Attack
 - Thunderbolt
 - Ice Beam
 - Hyper Beam
 
-Garchomp @ Yache Berry
+Garchomp @ Garchompite
 Level: 63
 Ability: Rough Skin
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe

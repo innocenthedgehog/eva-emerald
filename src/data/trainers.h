@@ -11957,7 +11957,7 @@ F_TRAINER_FEMALE |
 #line 4845
         .battleType = TRAINER_BATTLE_TYPE_SINGLES,
 #line 4846
-        .aiFlags = AI_FLAG_SMART_TRAINER,
+        .aiFlags = AI_FLAG_SMART_TRAINER | AI_FLAG_PREDICTION,
 #line 4847
         .mugshotColor = MUGSHOT_COLOR_BLUE,
         .partySize = 6,
@@ -11970,11 +11970,11 @@ F_TRAINER_FEMALE |
 #line 4849
             .heldItem = ITEM_LEFTOVERS,
 #line 4852
-            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4851
             .ability = ABILITY_PRESSURE,
 #line 4850
-            .lvl = 62,
+            .lvl = 63,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -11990,20 +11990,20 @@ F_TRAINER_FEMALE |
             .species = SPECIES_ROSERADE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4858
-            .heldItem = ITEM_POISON_BARB,
+            .heldItem = ITEM_FOCUS_SASH,
 #line 4861
-            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 30, 30),
 #line 4860
             .ability = ABILITY_POISON_POINT,
 #line 4859
-            .lvl = 62,
+            .lvl = 63,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 4862
-                MOVE_ENERGY_BALL,
-                MOVE_SLUDGE_BOMB,
-                MOVE_EXTRASENSORY,
+                MOVE_LEAF_STORM,
+                MOVE_SLEEP_POWDER,
+                MOVE_HIDDEN_POWER,
                 MOVE_TOXIC_SPIKES,
             },
             },
@@ -12014,11 +12014,11 @@ F_TRAINER_FEMALE |
 #line 4867
             .heldItem = ITEM_WISE_GLASSES,
 #line 4870
-            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4869
             .ability = ABILITY_SERENE_GRACE,
 #line 4868
-            .lvl = 62,
+            .lvl = 63,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -12036,11 +12036,11 @@ F_TRAINER_FEMALE |
 #line 4876
             .heldItem = ITEM_LIFE_ORB,
 #line 4879
-            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4878
             .ability = ABILITY_STEADFAST,
 #line 4877
-            .lvl = 62,
+            .lvl = 63,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -12058,11 +12058,11 @@ F_TRAINER_FEMALE |
 #line 4885
             .heldItem = ITEM_SILK_SCARF,
 #line 4888
-            .iv = TRAINER_PARTY_IVS(30, 30, 30, 30, 30, 30),
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4887
             .ability = ABILITY_ADAPTABILITY,
 #line 4886
-            .lvl = 62,
+            .lvl = 63,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -12078,7 +12078,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GARCHOMP,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4894
-            .heldItem = ITEM_YACHE_BERRY,
+            .heldItem = ITEM_GARCHOMPITE,
 #line 4897
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 4896
@@ -43957,7 +43957,7 @@ F_TRAINER_FEMALE |
 #line 17551
         .battleType = TRAINER_BATTLE_TYPE_SINGLES,
 #line 17552
-        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .aiFlags = AI_FLAG_SMART_TRAINER,
         .partySize = 6,
         .party = (const struct TrainerMon[])
         {
