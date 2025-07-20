@@ -8646,7 +8646,11 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sFrillishLevelUpLearnset,
         .teachableLearnset = sFrillishTeachableLearnset,
         .eggMoveLearnset = sFrillishEggMoveLearnset,
+    #if P_UPDATED_STATS == GEN_CUSTOM
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_JELLICENT}),
+    #else
         .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_JELLICENT}),
+    #endif
     },
 
     [SPECIES_JELLICENT] =
