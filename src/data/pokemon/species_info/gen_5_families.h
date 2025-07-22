@@ -9401,7 +9401,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .tmIlliterate = TRUE,
         .levelUpLearnset = sTynamoLevelUpLearnset,
         .teachableLearnset = sTynamoTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 39, SPECIES_EELEKTRIK}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_EELEKTRIK}),
     },
 
     [SPECIES_EELEKTRIK] =
