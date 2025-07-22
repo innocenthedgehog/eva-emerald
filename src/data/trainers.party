@@ -679,15 +679,23 @@ Pic: Aroma Lady
 Gender: Female
 Music: Female
 Battle Type: Singles
-AI: Check Bad Move
+AI: Basic Trainer
 
 Shroomish
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 21
+Ability: Effect Spore
+- Mega Drain
+- Headbutt
+- Leech Seed
+- Poison Powder
 
 Roselia
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 21
+Ability: Poison Point
+- Magical Leaf
+- Poison Sting
+- Leech Seed
+- Stun Spore
 
 === TRAINER_ROSE_1 ===
 Name: ROSE
@@ -4987,41 +4995,40 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Voltorb
-Level: 20
+Volbeat @ Choice Scarf
+Level: 23
+Ability: Electric Surge
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rollout
-- Spark
-- Self Destruct
-- Shock Wave
+- U-turn
+- Volt Switch
 
-Electrike
-Level: 20
+Chinchou @ Shuca Berry
+Level: 23
+Ability: Water Absorb
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shock Wave
-- Leer
-- Quick Attack
-- Howl
-
-Magneton
-Level: 22
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Supersonic
-- Shock Wave
+- Volt Switch
+- Flip Turn
+- Substitute
 - Thunder Wave
-- Sonicboom
+
+Magneton @ Air Balloon
+Level: 23
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Tri Attack
+- Mirror Shot
+- Shock Wave
+- Volt Switch
 
 Manectric @ Sitrus Berry
-Level: 24
+Level: 25
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Quick Attack
-- Thunder Wave
-- Shock Wave
-- Howl
+- Rising Voltage
+- Fire Fang
+- Volt Switch
+- Trailblaze
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -5644,11 +5651,30 @@ Pic: Pokefan M
 Gender: Male
 Music: Twins
 Battle Type: Singles
-AI: Check Bad Move
+AI: Basic Trainer
+
+Rockruff
+Level: 20
+Ability: Vital Spirit
+- Rock Throw
+- Bite
+- Howl
+
+Chinchou
+Level: 20
+Ability: Volt Absorb
+- Bubble Beam
+- Electro Ball
+- Confuse Ray
+- Thunder Wave
 
 Skitty @ Oran Berry
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 21
+Ability: Cute Charm
+- Fake Out
+- Double Slap
+- Disarming Voice
+- Copycat
 
 === TRAINER_COLTON ===
 Name: COLTON
@@ -6517,19 +6543,28 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Battle Type: Singles
-AI: Check Bad Move
+AI: Basic Trainer
+
+Barboach
+Level: 21
+Ability: Anticipation
+- Water Pulse
+- Mud Bomb
+- Amnesia
+
+Goldeen
+Level: 21
+Ability: Water Veil
+- Water Pulse
+- Horn Attack
+- Flail
+- Aqua Ring
 
 Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacool
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magikarp
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 25
+- Splash
+- Tackle
+- Flail
 
 === TRAINER_IVAN ===
 Name: IVAN
@@ -9035,15 +9070,23 @@ Pic: Twins
 Gender: Male
 Music: Twins
 Battle Type: Doubles
-AI: Check Bad Move
+AI: Basic Trainer
 
-Plusle
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Plusle @ Focus Sash
+Level: 21
+Ability: Plus
+- Electro Ball
+- Magical Leaf
+- Thunder Wave
+- Helping Hand
 
-Minun
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Minun @ Focus Sash
+Level: 21
+Ability: Minus
+- Electro Ball
+- Magical Leaf
+- Thunder Wave
+- Helping Hand
 
 === TRAINER_AMY_AND_LIV_2 ===
 Name: AMY & LIV
@@ -12679,11 +12722,32 @@ Pic: Wally
 Gender: Male
 Music: Male
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer / Conservative
 
-Ralts
-Level: 16
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Skitty @ Oran Berry
+Level: 22
+Ability: Cute Charm
+- Fake Out
+- Sing
+- Assist
+
+Roselia @ Oran Berry
+Level: 22
+Ability: Natural Cure
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Grass Whistle
+- Magical Leaf
+- Leech Seed
+- Growth
+
+Kirlia @ Lum Berry
+Level: 23
+Ability: Synchronize
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Psybeam
+- Draining Kiss
+- Magical Leaf
+- Double Team
 
 === TRAINER_WALLY_VR_2 ===
 Name: WALLY
@@ -13768,11 +13832,21 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Battle Type: Singles
-AI: Check Bad Move
+AI: Basic Trainer
 
 Voltorb
-Level: 15
+Level: 21
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sonicboom
+- Screech
+- Rollout
+
+Voltorb
+Level: 21
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sonicboom
+- Eerie Impulse
+- Charge Beam
 
 === TRAINER_RHETT ===
 Name: RHETT
@@ -13781,11 +13855,25 @@ Pic: Black Belt
 Gender: Male
 Music: Intense
 Battle Type: Singles
-AI: Check Bad Move
+AI: Basic Trainer
+
+Roggenrola
+Level: 21
+Ability: Weak Armor
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Smack Down
+- Iron Defense
+- Sand Attack
+- Stealth Rock
 
 Makuhita
-Level: 15
+Level: 21
+Ability: Thick Fat
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fake Out
+- Force Palm
+- Knock Off
+- Whirlwind
 
 === TRAINER_TYRON ===
 Name: TYRON
