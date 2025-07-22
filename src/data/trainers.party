@@ -1068,7 +1068,7 @@ AI: Check Bad Move
 Magneton
 Level: 39
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sonic Boom
+- Sonicboom
 - Thunder Wave
 - Metal Sound
 - Thunderbolt
@@ -1446,7 +1446,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunderbolt
 - Supersonic
 - Thunder Wave
-- Sonic Boom
+- Sonicboom
 
 Shiftry
 Level: 28
@@ -4204,12 +4204,21 @@ Pic: Psychic M
 Gender: Male
 Music: Intense
 Battle Type: Singles
-AI: Check Bad Move
+AI: Basic Trainer
 
 Abra
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 19
+Ability: Synchronize
+IVs: 11 HP / 11 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Hidden Power
+- Metronome
+
+Ralts
+Level: 19
+Ability: Trace
+- Double Team
+- Lucky Chant
+- Confusion
 
 === TRAINER_PRESTON ===
 Name: PRESTON
@@ -5004,7 +5013,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Supersonic
 - Shock Wave
 - Thunder Wave
-- Sonic Boom
+- Sonicboom
 
 Manectric @ Sitrus Berry
 Level: 24
@@ -5804,15 +5813,23 @@ Pic: Pokefan F
 Gender: Female
 Music: Twins
 Battle Type: Singles
-AI: Check Bad Move
+AI: Basic Trainer
 
 Plusle @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 18
+Ability: Plus
+- Spark
+- Encore
+- Thunder Wave
+- Magical Leaf
 
 Minun @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 18
+Ability: Minus
+- Spark
+- Encore
+- Helping Hand
+- Nuzzle
 
 === TRAINER_ISABEL_2 ===
 Name: ISABEL
@@ -6416,15 +6433,23 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Battle Type: Singles
-AI: Check Bad Move
+AI: Basic Trainer
 
 Aron
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 18
+Ability: Sturdy
+- Headbutt
+- Metal Claw
+- Rock Tomb
+- Protect
 
 Electrike
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 19
+Ability: Static
+- Spark
+- Howl
+- Quick Attack
+- Thunder Wave
 
 === TRAINER_WALLACE ===
 Name: WALLACE
@@ -6611,23 +6636,33 @@ Pic: Fisherman
 Gender: Male
 Music: Hiker
 Battle Type: Singles
-AI: Check Bad Move
+AI: Basic Trainer
 
 Tentacool
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 15
+Ability: Liquid Ooze
+- Toxic Spikes
+- Acid
+- Bubble
+- Wrap
 
 Wailmer
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 17
+Ability: Oblivious
+- Whirlpool
+- Rollout
+- Astonish
 
-Tentacool
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Frillish
+Level: 19
+Ability: Cursed Body
+- Bubble Beam
+- Night Shade
+- Recover
 
 Wailmer
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 17
+
 
 === TRAINER_NOLAN ===
 Name: NOLAN
@@ -9600,15 +9635,23 @@ Pic: Collector
 Gender: Male
 Music: Suspicious
 Battle Type: Singles
-AI: Check Bad Move
+AI: Basic Trainer
 
 Lombre
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 19
+Ability: Own Tempo
+- Fake Out
+- Bubble
+- Mega Drain
+- Teeter Dance
 
 Nuzleaf
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 19
+Ability: Pickpocket
+- Razor Leaf
+- Twister
+- Nature Power
+- Rollout
 
 === TRAINER_HECTOR ===
 Name: HECTOR
@@ -9786,19 +9829,42 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Grovyle
+Sableye @ Oran Berry
 Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ability: Prankster
+- Shadow Sneak
+- Feint Attack
+- Cut
+- Leer
+
+Wingull @ Oran Berry
+Level: 21
+Ability: Keen Eye
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Wing Attack
+- Water Pulse
+- Supersonic
+- Quick Attack
+
+Numel @ Oran Berry
+Level: 21
+Ability: Simple
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Magnitude
+- Flame Burst
+- Yawn
+- Amnesia
+
+Grovyle (M) @ Oran Berry
+Level: 22
+Ability: Unburden
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Leafage
+- Cut
+- Pursuit
+- Dragon Tail
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
 Name: BRENDAN
@@ -9841,19 +9907,42 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Combusken
+Sableye @ Oran Berry
 Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ability: Prankster
+- Shadow Sneak
+- Feint Attack
+- Cut
+- Leer
+
+Lombre @ Oran Berry
+Level: 21
+Ability: Swift Swim
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Fake Out
+- Bubble
+- Bullet Seed
+- Knock Off
+
+Wingull @ Oran Berry
+Level: 21
+Ability: Keen Eye
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Wing Attack
+- Water Pulse
+- Supersonic
+- Quick Attack
+
+Combusken (M) @ Oran Berry
+Level: 22
+Ability: Speed Boost
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Flame Charge
+- Cut
+- Rock Tomb
+- Double Kick
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
 Name: BRENDAN
@@ -9896,19 +9985,42 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Marshtomp
+Sableye @ Oran Berry
 Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ability: Prankster
+- Shadow Sneak
+- Feint Attack
+- Cut
+- Leer
+
+Lombre @ Oran Berry
+Level: 21
+Ability: Swift Swim
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Fake Out
+- Bubble
+- Bullet Seed
+- Knock Off
+
+Numel @ Oran Berry
+Level: 21
+Ability: Simple
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Magnitude
+- Flame Burst
+- Yawn
+- Amnesia
+
+Marshtomp (M) @ Oran Berry
+Level: 22
+Ability: Damp
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Water Pulse
+- Mud Bomb
+- Bide
+- Supersonic
 
 === TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
 Name: BRENDAN
@@ -9951,19 +10063,42 @@ Pic: May
 Gender: Female
 Music: Female
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Grovyle
+Sableye @ Oran Berry
 Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ability: Prankster
+- Shadow Sneak
+- Feint Attack
+- Cut
+- Leer
+
+Wingull @ Oran Berry
+Level: 21
+Ability: Keen Eye
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Wing Attack
+- Water Pulse
+- Supersonic
+- Quick Attack
+
+Numel @ Oran Berry
+Level: 21
+Ability: Simple
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Magnitude
+- Flame Burst
+- Yawn
+- Amnesia
+
+Grovyle (M) @ Oran Berry
+Level: 22
+Ability: Unburden
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Leafage
+- Cut
+- Pursuit
+- Dragon Tail
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
 Name: MAY
@@ -10006,19 +10141,42 @@ Pic: May
 Gender: Female
 Music: Female
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Wingull
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Combusken
+Sableye @ Oran Berry
 Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ability: Prankster
+- Shadow Sneak
+- Feint Attack
+- Cut
+- Leer
+
+Lombre @ Oran Berry
+Level: 21
+Ability: Swift Swim
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Fake Out
+- Bubble
+- Bullet Seed
+- Knock Off
+
+Wingull @ Oran Berry
+Level: 21
+Ability: Keen Eye
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Wing Attack
+- Water Pulse
+- Supersonic
+- Quick Attack
+
+Combusken (M) @ Oran Berry
+Level: 22
+Ability: Speed Boost
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Flame Charge
+- Cut
+- Rock Tomb
+- Double Kick
 
 === TRAINER_MAY_ROUTE_119_TREECKO ===
 Name: MAY
@@ -10061,19 +10219,42 @@ Pic: May
 Gender: Female
 Music: Female
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Lombre
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Slugma
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Marshtomp
+Sableye @ Oran Berry
 Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ability: Prankster
+- Shadow Sneak
+- Feint Attack
+- Cut
+- Leer
+
+Lombre @ Oran Berry
+Level: 21
+Ability: Swift Swim
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Fake Out
+- Bubble
+- Bullet Seed
+- Knock Off
+
+Numel @ Oran Berry
+Level: 21
+Ability: Simple
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Magnitude
+- Flame Burst
+- Yawn
+- Amnesia
+
+Marshtomp (M) @ Oran Berry
+Level: 22
+Ability: Damp
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Water Pulse
+- Mud Bomb
+- Bide
+- Supersonic
 
 === TRAINER_MAY_ROUTE_119_TORCHIC ===
 Name: MAY
@@ -13512,15 +13693,24 @@ Pic: Pokefan M
 Gender: Male
 Music: Twins
 Battle Type: Singles
-AI: Check Bad Move
+AI: Basic Trainer
 
 Minun @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 18
+Ability: Minus
+- Spark
+- Encore
+- Helping Hand
+- Nuzzle
 
 Plusle @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 18
+Ability: Plus
+- Spark
+- Encore
+- Thunder Wave
+- Magical Leaf
+
 
 === TRAINER_JOSEPH ===
 Name: JOSEPH
@@ -13529,15 +13719,23 @@ Pic: Guitarist
 Gender: Male
 Music: Intense
 Battle Type: Singles
-AI: Check Bad Move
-
-Electrike
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+AI: Basic Trainer
 
 Voltorb
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 19
+Ability: Static
+- Rollout
+- Spark
+- Screech
+- Sonicboom
+
+Loudred
+Level: 20
+Ability: Soundproof
+- Echoed Voice
+- Disarming Voice
+- Fake Tears
+- Bite
 
 === TRAINER_ALYSSA ===
 Name: ALYSSA
@@ -13546,11 +13744,22 @@ Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
 Battle Type: Singles
-AI: Check Bad Move
+AI: Basic Trainer
 
 Magnemite
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 19
+Ability: Sturdy
+- Sonicboom
+- Magnet Bomb
+- Light Screen
+- Thunder Wave
+
+Ponyta
+Level: 19
+Ability: Flash Fire
+- Stomp
+- Flame Wheel
+- Tail Whip
 
 === TRAINER_MARCOS ===
 Name: MARCOS
