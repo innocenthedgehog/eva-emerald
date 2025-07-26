@@ -12411,7 +12411,7 @@ F_TRAINER_FEMALE |
                 MOVE_RISING_VOLTAGE,
                 MOVE_FIRE_FANG,
                 MOVE_VOLT_SWITCH,
-                MOVE_TRAILBLAZE,
+                MOVE_HOWL,
             },
             },
         },
