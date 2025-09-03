@@ -9,11 +9,11 @@
 	.2byte \move
 	.endm
 
-	.macro attackstring
+	.macro printattackstring
 	.byte 0x2
 	.endm
 
-	.macro ppreduce
+	.macro unused0x3
 	.byte 0x3
 	.endm
 
@@ -187,12 +187,8 @@
 	.4byte \jumpInstr
 	.endm
 
-	.macro jumpifstatus3condition battler:req, flags:req, jumpIfTrue:req, jumpInstr:req
+	.macro unused_0x21
 	.byte 0x21
-	.byte \battler
-	.4byte \flags
-	.byte \jumpIfTrue
-	.4byte \jumpInstr
 	.endm
 
 	.macro jumpbasedontype battler:req, type:req, jumpIfType:req, jumpInstr:req
@@ -416,8 +412,11 @@
 	.4byte \argPtr
 	.endm
 
-	.macro unused_0x47
+	.macro jumpfifsemiinvulnerable battler:req, state:req, jumpInstr:req
 	.byte 0x47
+	.byte \battler
+	.byte \state
+	.4byte \jumpInstr
 	.endm
 
 	.macro unused_0x48
@@ -735,9 +734,8 @@
 	.4byte \jumpInstr
 	.endm
 
-	.macro setmiracleeye failInstr:req
+	.macro unused_0x83
 	.byte 0x83
-	.4byte \failInstr
 	.endm
 
 	.macro jumpifuproarwakes jumpInstr:req
@@ -842,8 +840,9 @@
 	.byte 0x95
 	.endm
 
-	.macro unused_96
+	.macro animatewildpokemonafterfailedpokeball battler:req
 	.byte 0x96
+	.byte \battler
 	.endm
 
 	.macro tryinfatuating failInstr:req
@@ -878,7 +877,7 @@
 	.4byte \failInstr
 	.endm
 
-	.macro metronome
+	.macro setcalledmove
 	.byte 0x9e
 	.endm
 
@@ -1081,7 +1080,7 @@
 	tryfiretwoturnmovenowbyeffect \battler, FALSE, \jumpInstr
 	.endm
 
-	.macro setminimize
+	.macro unused_0xC7
 	.byte 0xc7
 	.endm
 
@@ -1187,9 +1186,10 @@
 	.4byte \failInstr
 	.endm
 
-	.macro setuserstatus3 flags:req, failInstr:req
+	.macro trysetvolatile battler:req, _volatile:req, failInstr:req
 	.byte 0xdd
-	.4byte \flags
+	.byte \battler
+	.byte \_volatile
 	.4byte \failInstr
 	.endm
 
@@ -1433,9 +1433,8 @@
 	callnative BS_TryRevertWeatherForm
 	.endm
 
-	.macro trysetoctolock battler:req, failInstr:req
+	.macro trysetoctolock failInstr:req
 	callnative BS_TrySetOctolock
-	.byte \battler
 	.4byte \failInstr
 	.endm
 
@@ -1452,11 +1451,6 @@
 	callnative BS_SetPledgeStatus
 	.byte \battler
 	.4byte \sidestatus
-	.endm
-
-	.macro trycopycat failInstr:req
-	callnative BS_TryCopycat
-	.4byte \failInstr
 	.endm
 
 	.macro setzeffect
@@ -1723,6 +1717,10 @@
 	.byte \battler
 	.endm
 
+    .macro resetterrainabilityflags
+    callnative BS_ResetTerrainAbilityFlags
+    .endm
+
 	@ Stores Healing Wish effect.
 	.macro storehealingwish battler:req
 	callnative BS_StoreHealingWish
@@ -1878,14 +1876,6 @@
 
 	.macro jumpifnotchosenmove move:req, jumpInstr:req
 	jumpifhalfword CMP_NOT_EQUAL, gChosenMove, \move, \jumpInstr
-	.endm
-
-	.macro jumpifstatus3 battler:req, flags:req, jumpInstr:req
-	jumpifstatus3condition \battler, \flags, FALSE, \jumpInstr
-	.endm
-
-	.macro jumpifnostatus3 battler:req, flags:req, jumpInstr:req
-	jumpifstatus3condition \battler, \flags, TRUE, \jumpInstr
 	.endm
 
 	.macro jumpifmovehadnoeffect jumpInstr:req
@@ -2210,11 +2200,6 @@
 
 	.macro invertstatstages
 	callnative BS_InvertStatStages
-	.endm
-
-	.macro trymefirst failInstr:req
-	callnative BS_TryMeFirst
-	.4byte \failInstr
 	.endm
 
 	.macro tryelectrify failInstr:req
