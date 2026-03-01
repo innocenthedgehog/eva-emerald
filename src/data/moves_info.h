@@ -3655,7 +3655,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .type = TYPE_PSYCHIC,
         .accuracy = 100,
         .pp = 20,
-        .target = MOVE_TARGET_SELECTED,
+        .target = TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
         .argument = { .type = TYPE_STEEL },        
