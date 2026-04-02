@@ -1,3 +1,6 @@
+#pragma trainerproc ivs 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+#pragma trainerproc level explicit
+
 === TRAINER_NONE ===
 Name: PH
 Class: Pkmn Trainer 1
@@ -5028,49 +5031,53 @@ Class: Leader Frlg
 Pic: Leader Giovanni Frlg
 Gender: Male
 Music: Aqua
-Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Risky
 
-Rhyhorn
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Take Down
-- Rock Blast
-- Scary Face
+Golem @ Smooth Rock
+Level: 47
+Ability: Sturdy
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Sandstorm
+- Heavy Slam
+- Rapid Spin
+- Explosion
+
+Dugtrio @ Focus Sash
+Level: 46
+Ability: Arena Trap
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Swords Dance
 - Earthquake
+- Sucker Punch
+- Reversal
 
-Dugtrio
-Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Slash
-- Sand Tomb
-- Mud Slap
+Nidoqueen @ Black Sludge
+Level: 48
+Ability: Sheer Force
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Stealth Rock
+- Earth Power
+- Ice Beam
+- Protect
+
+Nidoking @ Life Orb
+Level: 49
+Ability: Sheer Force
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Earthquake
+- Ice Beam
+- Flamethrower
+- Thunderbolt
 
-Nidoqueen
-Level: 44
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Body Slam
-- Double Kick
-- Poison Sting
-- Earthquake
-
-Nidoking
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thrash
-- Double Kick
-- Poison Sting
-- Earthquake
-
-Rhyhorn
+Rhyperior @ Leftovers
 Level: 50
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Take Down
-- Rock Blast
-- Scary Face
+Ability: Solid Rock
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stone Edge
 - Earthquake
+- Ice Punch
+- Dragon Tail
 
 === TRAINER_TEAM_ROCKET_GRUNT ===
 Name: GRUNT
@@ -7041,20 +7048,23 @@ Pic: Leader Brock Frlg
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Geodude
+Geodude @ Cheri Berry
 Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Defense Curl
+Ability: Sturdy
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rollout
+- Rock Polish
+- Magnitude
 
-Onix
+Onix @ Berry Juice
 Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Bind
+Ability: Sturdy
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rock Tomb
+- Curse
+- Bind
 
 === TRAINER_LEADER_MISTY ===
 Name: MISTY
@@ -7062,24 +7072,34 @@ Class: Leader Frlg
 Pic: Leader Misty Frlg
 Gender: Male
 Music: Female
-Items: Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Staryu
+Psyduck @ Damp Rock
 Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Harden
-- Recover
+Ability: Swift Swim
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rain Dance
+- Confusion
 - Water Pulse
+- Hypnosis
 
-Starmie
+Goldeen @ Water Gem
+Level: 19
+Ability: Lightning Rod
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Peck
+- Horn Attack
+- Water Pulse
+- Flail
+
+Starmie @ Lum Berry
 Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ability: Natural Cure
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Swift
 - Recover
-- Rapid Spin
+- Psywave
 - Water Pulse
 
 === TRAINER_LEADER_LT_SURGE ===
@@ -7088,33 +7108,34 @@ Class: Leader Frlg
 Pic: Leader Lt Surge Frlg
 Gender: Male
 Music: Male
-Items: Super Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Voltorb
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Porygon @ Eviolite
+Level: 22
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Charge Beam
+- Psybeam
+- Recover
+- Substitute
+
+Voltorb @ Light Clay
+Level: 22
+Ability: Aftermath
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Electro Ball
+- Light Screen
 - Sonic Boom
-- Tackle
-- Screech
-- Shock Wave
-
-Pikachu
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Quick Attack
 - Thunder Wave
-- Double Team
-- Shock Wave
 
-Raichu
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Quick Attack
-- Thunder Wave
-- Double Team
+Raichu @ Shuca Berry
+Level: 25
+Ability: Static
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Fake Out
+- Surf
 - Shock Wave
+- Quick Attack
 
 === TRAINER_LEADER_ERIKA ===
 Name: ERIKA
@@ -7122,33 +7143,35 @@ Class: Leader Frlg
 Pic: Leader Erika Frlg
 Gender: Male
 Music: Female
-Items: Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Victreebel
+Victreebel @ Terrain Extender
 Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stun Spore
-- Acid
-- Poison Powder
+Ability: Chlorophyll
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Grassy Terrain
 - Giga Drain
-
-Tangela
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Powder
-- Constrict
-- Ingrain
-- Giga Drain
-
-Vileplume
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sleep Powder
-- Acid
-- Stun Spore
+- Knock Off
+
+Tangela @ Big Root
+Level: 28
+Ability: Regenerator
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leech Seed
+- Protect
+- Sleep Powder
+- Synthesis
+
+Vileplume @ Sitrus Berry
+Level: 30
+Ability: Effect Spore
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Moonlight
 - Giga Drain
+- Sludge Bomb
+- Petal Blizzard
 
 === TRAINER_LEADER_KOGA ===
 Name: KOGA
@@ -7156,41 +7179,44 @@ Class: Leader Frlg
 Pic: Leader Koga Frlg
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Koffing
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Self Destruct
-- Sludge
-- Smokescreen
+Golbat @ Flying Gem
+Level: 41
+Ability: Inner Focus
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Acrobatics
+- Leech Life
+- Giga Drain
 - Toxic
 
-Muk
-Level: 39
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Minimize
-- Sludge
-- Acid Armor
-- Toxic
-
-Koffing
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Self Destruct
-- Sludge
-- Smokescreen
-- Toxic
-
-Weezing
+Muk @ Black Sludge
 Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Sludge
-- Smokescreen
+Ability: Sticky Hold
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Poison Jab
 - Toxic
+- Knock Off
+- Zen Headbutt
+
+Tentacruel @ Black Sludge
+Level: 41
+Ability: Liquid Ooze
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Scald
+- Poison Jab
+- Toxic Spikes
+- Rapid Spin
+
+Weezing @ Lum Berry
+Level: 44
+Ability: Levitate
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Sludge Bomb
+- Will O Wisp
+- Pain Split
+- Haze
 
 === TRAINER_LEADER_BLAINE ===
 Name: BLAINE
@@ -7198,41 +7224,53 @@ Class: Leader Frlg
 Pic: Leader Blaine Frlg
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer
 
-Growlithe
-Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Roar
+Ninetales @ Heat Rock
+Level: 45
+Ability: Drought
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Weather Ball
+- Will O Wisp
+- Encore
+- Hex
+
+Flareon @ Toxic Orb
+Level: 44
+Ability: Guts
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Take Down
-- Fire Blast
+- Fire Fang
+- Trailblaze
+- Scorching Sands
 
-Ponyta
-Level: 40
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stomp
-- Bounce
-- Fire Spin
-- Fire Blast
+Venusaur @ Life Orb
+Level: 45
+Ability: Chlorophyll
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Giga Drain
+- Earth Power
+- Weather Ball
+- Growth
 
-Rapidash
-Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stomp
-- Bounce
-- Fire Spin
+Rapidash @ Passho Berry
+Level: 45
+Ability: Flash Fire
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Sunny Day
 - Fire Blast
+- High Horsepower
+- Solar Beam
 
-Arcanine
+Arcanine @ Leftovers
 Level: 47
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Roar
-- Take Down
-- Fire Blast
+Ability: Intimidate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Curse
+- Extreme Speed
+- Morning Sun
 
 === TRAINER_LEADER_SABRINA ===
 Name: SABRINA
@@ -7240,40 +7278,42 @@ Class: Leader Frlg
 Pic: Leader Sabrina Frlg
 Gender: Male
 Music: Female
-Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Kadabra
-Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psybeam
-- Reflect
-- Future Sight
-- Calm Mind
+AI: Smart Trainer
 
 Mr Mime
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 39
+Ability: Filter
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Psychic
 - Barrier
-- Psybeam
-- Baton Pass
 - Calm Mind
+- Baton Pass
+
+Hypno
+Level: 40
+Ability: Insomnia
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Hypnosis
+- Dream Eater
+- Focus Blast
+- Mystical Fire
 
 Venomoth
 Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Psybeam
 - Gust
 - Leech Life
 - Supersonic
 
-Alakazam
+Alakazam @ Twisted Spoon
 Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psychic
+Ability: Synchronize
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Kinesis
 - Recover
-- Future Sight
+- Thunder Wave
 - Calm Mind
 
 === TRAINER_GENTLEMAN_THOMAS ===

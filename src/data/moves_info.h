@@ -3574,7 +3574,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .argument = { .type = TYPE_STEEL },        
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_ACC_MINUS_1,
-            .chance = 10,
+            .chance = 20,
         }),
     #else
         .description = COMPOUND_STRING(
