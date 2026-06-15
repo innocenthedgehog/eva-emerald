@@ -5066,9 +5066,18 @@ Level: 49
 Ability: Sheer Force
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Earthquake
-- Ice Beam
-- Flamethrower
-- Thunderbolt
+- Blizzard
+- Fire Blast
+- Thunder
+
+Persian @ Silk Scarf
+Level: 48
+Ability: Technician
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Fake Out
+- Knock Off
+- U-turn
+- Double Edge
 
 Rhyperior @ Leftovers
 Level: 50
@@ -6841,52 +6850,71 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Name: LORELEI
 Class: Elite Four Frlg
 Pic: Elite Four Lorelei Frlg
-Gender: Male
+Gender: Female
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Prediction
 Mugshot: Purple
 
-Dewgong
+Qwilfish @ Rocky Helmet
 Level: 52
+Ability: Intimidate
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Beam
-- Surf
-- Hail
-- Safeguard
-
-Cloyster
-Level: 51
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Impish Nature
 - Spikes
-- Protect
-- Hail
-- Dive
+- Barb Barrage
+- Flip Turn
+- Pain Split
 
-Slowbro
+Dewgong @ Chesto Berry
 Level: 52
+Ability: Thick Fat
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Beam
-- Surf
-- Amnesia
-- Yawn
+Bold Nature
+- Whirlpool
+- Perish Song
+- Curse
+- Rest
 
-Jynx
-Level: 54
+Cloyster @ White Herb
+Level: 51
+Ability: Skill Link
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Punch
-- Double Slap
-- Lovely Kiss
-- Attract
+Adamant Nature
+- Shell Smash
+- Icicle Spear
+- Drill Run
+- Explosion
 
-Lapras @ Sitrus Berry
+Slowbro @ Rocky Helmet
+Level: 52
+Ability: Regenerator
+IVs: 30 HP / 0 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Bold Nature
+- Calm Mind
+- Scald
+- Psychic Noise
+- Slack Off
+
+Jynx @ Choice Specs
 Level: 54
+Ability: Dry Skin
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Confuse Ray
+Timid Nature
 - Ice Beam
-- Surf
-- Body Slam
+- Psychic
+- Focus Blast
+- Trick
+
+Lapras @ Heavy-Duty Boots
+Level: 54
+Ability: Water Absorb
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Modest Nature
+- Freeze-Dry
+- Hydro Pump
+- Alluring Voice
+- Ice Beam
 
 === TRAINER_ELITE_FOUR_BRUNO ===
 Name: BRUNO
@@ -6894,101 +6922,138 @@ Class: Elite Four Frlg
 Pic: Elite Four Bruno Frlg
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Prediction
 Mugshot: Green
 
-Onix
+Steelix @ Leftovers
 Level: 51
+Ability: Sturdy
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Careful Nature
+- Stealth Rock
 - Earthquake
-- Rock Tomb
-- Iron Tail
-- Roar
+- Heavy Slam
+- Toxic
 
-Hitmonchan
+Hitmonchan @ Assault Vest
 Level: 53
+Ability: Iron Fist
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sky Uppercut
+Adamant Nature
+- Drain Punch
+- Thunder Punch
 - Mach Punch
-- Rock Tomb
-- Counter
+- Rapid Spin
 
 Hitmonlee
 Level: 53
+Ability: Unburden
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Mega Kick
-- Foresight
-- Brick Break
-- Facade
+- Swords Dance
+- Close Combat
+- Knock Off
+- Stone Edge
 
-Onix
+Pinsir @ Heavy-Duty Boots
 Level: 54
+Ability: Hyper Cutter
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Edge
-- Earthquake
-- Iron Tail
-- Sand Tomb
+Jolly Nature
+- X-Scissor
+- Close Combat
+- Stone Edge
+- Knock Off
 
 Machamp @ Sitrus Berry
-Level: 56
+Level: 54
+Ability: No Guard
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Cross Chop
+Adamant Nature
+- Dynamic Punch
 - Bulk Up
-- Scary Face
-- Rock Tomb
+- Stone Edge
+- Payback
+
+Annihilape @ Chesto Berry
+Level: 56
+Ability: Defiant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Careful Nature
+- Bulk Up
+- Rest
+- Drain Punch
+- Rage Fist
 
 === TRAINER_ELITE_FOUR_AGATHA ===
 Name: AGATHA
 Class: Elite Four Frlg
 Pic: Elite Four Agatha Frlg
-Gender: Male
+Gender: Female
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Prediction
 Mugshot: Pink
 
-Gengar
+Crobat @ Heavy-Duty Boots
 Level: 54
+Ability: Infiltrator
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Punch
-- Confuse Ray
+Jolly Nature
+- Brave Bird
 - Toxic
-- Double Team
+- U-turn
+- Roost
 
-Golbat
+Mismagius @ Choice Specs
 Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Confuse Ray
-- Poison Fang
-- Air Cutter
-- Bite
-
-Haunter
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hypnosis
-- Dream Eater
-- Curse
-- Mean Look
-
-Arbok
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sludge Bomb
-- Screech
-- Iron Tail
-- Bite
-
-Gengar @ Sitrus Berry
-Level: 58
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Ability: Levitate
+IVs: 30 HP / 0 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Timid Nature
 - Shadow Ball
-- Sludge Bomb
-- Hypnosis
-- Nightmare
+- Dazzling Gleam
+- Thunderbolt
+- Mystical Fire
+
+Marowak @ Thick Club
+Level: 53
+Ability: Battle Armor
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Adamant Nature
+- Swords Dance
+- Bonemerang
+- Knock Off
+- Stone Edge
+
+Parasect @ Heavy-Duty Boots
+Level: 54
+Ability: Dry Skin
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Careful Nature
+- Spore
+- Leech Life
+- Knock Off
+- Synthesis
+
+Lanturn @ Leftovers
+Level: 54
+Ability: Volt Absorb
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Calm Nature
+- Scald
+- Volt Switch
+- Toxic
+- Protect
+
+Gengar @ Air Balloon
+Level: 58
+Ability: Cursed Body
+IVs: 31 HP / 0 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Timid Nature
+- Nasty Plot
+- Hex
+- Sludge Wave
+- Focus Blast
 
 === TRAINER_ELITE_FOUR_LANCE ===
 Name: LANCE
@@ -6996,50 +7061,68 @@ Class: Elite Four Frlg
 Pic: Elite Four Lance Frlg
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Smart Trainer / Prediction
 Mugshot: Blue
 
-Gyarados
+Politoed @ Damp Rock
 Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Dragon Rage
-- Twister
-- Bite
+Ability: Drizzle
+IVs: 30 HP / 0 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Timid Nature
+- Whirlpool
+- Perish Song
+- Ice Beam
+- Encore
 
-Dragonair
-Level: 54
+Kangaskhan @ Silk Scarf
+Level: 56
+Ability: Scrappy
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
-- Dragon Rage
-- Outrage
+Adamant Nature
+- Fake Out
+- Double Edge
+- Earthquake
+- Sucker Punch
 
-Dragonair
-Level: 54
+Arbok @ Rocky Helmet
+Level: 56
+Ability: Intimidate
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
-- Thunder Wave
-- Outrage
+- Gunk Shot
+- Toxic Spikes
+- Glare
+- Dragon Tail
 
-Aerodactyl
+Kingdra @ Choice Specs
+Level: 56
+Ability: Swift Swim
+IVs: 30 HP / 0 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Modest Nature
+- Hydro Pump
+- Draco Meteor
+- Hurricane
+- Flip Turn
+
+Aerodactyl @ Heavy-Duty Boots
 Level: 58
+Ability: Unnerve
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Ancient Power
-- Wing Attack
-- Scary Face
+Adamant Nature
+- Stone Edge
+- Dual Wingbeat
+- Earthquake
+- Roost
 
-Dragonite @ Sitrus Berry
+Dragonite @ Loaded Dice
 Level: 60
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
-- Outrage
-- Wing Attack
+Ability: Multiscale
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Adamant Nature
+- Dragon Dance
+- Scale Shot
+- Fire Punch
+- Encore
 
 === TRAINER_LEADER_BROCK ===
 Name: BROCK
@@ -7050,13 +7133,21 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Geodude @ Cheri Berry
+Rhyhorn @ Passho Berry
 Level: 12
 Ability: Sturdy
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Rollout
-- Rock Polish
-- Magnitude
+- Rock Tomb
+- Sandstorm
+- Stomp
+
+Omanyte @ Rindo Berry
+Level: 12
+Ability: Weak Armor
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Gun
+- Bite
+- Rock Tomb
 
 Onix @ Berry Juice
 Level: 14
@@ -7064,13 +7155,13 @@ Ability: Sturdy
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rock Tomb
 - Curse
-- Bind
+- Dig
 
 === TRAINER_LEADER_MISTY ===
 Name: MISTY
 Class: Leader Frlg
 Pic: Leader Misty Frlg
-Gender: Male
+Gender: Female
 Music: Female
 Double Battle: No
 AI: Smart Trainer
@@ -7084,7 +7175,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Water Pulse
 - Hypnosis
 
-Goldeen @ Water Gem
+Goldeen @ Flying Gem
 Level: 19
 Ability: Lightning Rod
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -7128,6 +7219,14 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Sonic Boom
 - Thunder Wave
 
+Magnemite @ Air Balloon
+Level: 22
+Ability: Analytic
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shock Wave
+- Magnet Bomb
+- Thunder Wave
+
 Raichu @ Shuca Berry
 Level: 25
 Ability: Static
@@ -7141,13 +7240,13 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 Name: ERIKA
 Class: Leader Frlg
 Pic: Leader Erika Frlg
-Gender: Male
+Gender: Female
 Music: Female
 Double Battle: No
 AI: Smart Trainer
 
 Victreebel @ Terrain Extender
-Level: 29
+Level: 28
 Ability: Chlorophyll
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Grassy Terrain
@@ -7156,13 +7255,22 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Knock Off
 
 Tangela @ Big Root
-Level: 28
+Level: 27
 Ability: Regenerator
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Leech Seed
 - Protect
 - Sleep Powder
 - Synthesis
+
+Sudowoodo @ Rocky Helmet
+Level: 28
+Ability: Rattled
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rock Tomb
+- Feint Attack
+- Low Kick
+- Counter
 
 Vileplume @ Sitrus Berry
 Level: 30
@@ -7246,7 +7354,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Scorching Sands
 
 Venusaur @ Life Orb
-Level: 45
+Level: 44
 Ability: Chlorophyll
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Giga Drain
@@ -7263,14 +7371,14 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - High Horsepower
 - Solar Beam
 
-Arcanine @ Leftovers
+Magmortar @ Heavy-Duty Boots
 Level: 47
-Ability: Intimidate
+Ability: Flame Body
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flare Blitz
-- Curse
-- Extreme Speed
-- Morning Sun
+- Fire Blast
+- Scorching Sands
+- Thunderbolt
+- Knock Off
 
 === TRAINER_LEADER_SABRINA ===
 Name: SABRINA
